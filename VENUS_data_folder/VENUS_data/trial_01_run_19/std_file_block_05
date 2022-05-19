@@ -1,0 +1,15 @@
+in change:
+Inow= [120.11901855 108.41601562 103.65739441]
+Iaim [133.54688342  92.         110.84574784]
+Ioff [128.51688342  97.1        105.76574784]
+ext to goal: [0. 1. 0.]  Inow: 97.09230041503906  Igoal: 97.0
+inj to goal: [1. 1. 0.]  Inow: 128.51795959472656  Igoal: 128.54688341820844
+!!!!!!!!!  timed out !!!!!!!
+trying to set [128.54688342  97.         105.84574784]
+got stuck at  128.53359985351562 97.01018524169922 105.42868041992188
+in here. i=0, Inow[i]=128.533600, Igoal[i]=128.546883, done[i]=1
+in here. i=1, Inow[i]=97.010185, Igoal[i]=97.000000, done[i]=1
+in here. i=2, Inow[i]=105.428680, Igoal[i]=105.845748, done[i]=0
+stuck with big difference. re-requesting Igoal
+mid to goal: [1. 1. 1.]  Inow: 105.76885986328125  Igoal: 105.84574784239011
+average current for 10 s:  131.48524079681243

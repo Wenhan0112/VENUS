@@ -1,0 +1,43 @@
+in change:
+Inow= [120.00171661  97.01018524 103.34849548]
+Iaim [135.  97.  90.]
+Ioff [129.97  97.1   95.25]
+mid to goal: [0. 1. 1.]  Inow: 95.23889923095703  Igoal: 95.0
+inj to goal: [1. 1. 1.]  Inow: 129.9725341796875  Igoal: 130.0
+!!!!!!!!!  timed out !!!!!!!
+trying to set [130.  97.  95.]
+got stuck at  130.0155487060547 97.00627136230469 95.00428771972656
+in here. i=0, Inow[i]=130.015549, Igoal[i]=130.000000, done[i]=1
+in here. i=1, Inow[i]=97.006271, Igoal[i]=97.000000, done[i]=1
+in here. i=2, Inow[i]=95.004288, Igoal[i]=95.000000, done[i]=1
+!!!!!!!!!  timed out !!!!!!!
+trying to set [130.  97.  95.]
+got stuck at  130.00772094726562 97.01409149169922 95.00428771972656
+in here. i=0, Inow[i]=130.007721, Igoal[i]=130.000000, done[i]=1
+in here. i=1, Inow[i]=97.014091, Igoal[i]=97.000000, done[i]=1
+in here. i=2, Inow[i]=95.004288, Igoal[i]=95.000000, done[i]=1
+!!!!!!!!!  timed out !!!!!!!
+trying to set [130.  97.  95.]
+got stuck at  130.00381469726562 97.01018524169922 95.00428771972656
+in here. i=0, Inow[i]=130.003815, Igoal[i]=130.000000, done[i]=1
+in here. i=1, Inow[i]=97.010185, Igoal[i]=97.000000, done[i]=1
+in here. i=2, Inow[i]=95.004288, Igoal[i]=95.000000, done[i]=1
+!!!!!!!!!  timed out !!!!!!!
+trying to set [130.  97.  95.]
+got stuck at  130.00772094726562 97.01018524169922 95.00038146972656
+in here. i=0, Inow[i]=130.007721, Igoal[i]=130.000000, done[i]=1
+in here. i=1, Inow[i]=97.010185, Igoal[i]=97.000000, done[i]=1
+in here. i=2, Inow[i]=95.000381, Igoal[i]=95.000000, done[i]=1
+!!!!!!!!!  timed out !!!!!!!
+trying to set [130.  97.  95.]
+got stuck at  129.99598693847656 97.01018524169922 95.00038146972656
+in here. i=0, Inow[i]=129.995987, Igoal[i]=130.000000, done[i]=1
+in here. i=1, Inow[i]=97.010185, Igoal[i]=97.000000, done[i]=1
+in here. i=2, Inow[i]=95.000381, Igoal[i]=95.000000, done[i]=1
+!!!!!!!!!  timed out !!!!!!!
+trying to set [130.  97.  95.]
+got stuck at  129.99990844726562 97.00627136230469 95.00038146972656
+in here. i=0, Inow[i]=129.999908, Igoal[i]=130.000000, done[i]=1
+in here. i=1, Inow[i]=97.006271, Igoal[i]=97.000000, done[i]=1
+in here. i=2, Inow[i]=95.000381, Igoal[i]=95.000000, done[i]=1
+average current for 10 s:  125.04458451768573

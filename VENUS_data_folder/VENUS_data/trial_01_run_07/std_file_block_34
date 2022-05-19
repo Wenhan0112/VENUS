@@ -1,0 +1,34 @@
+in change:
+Inow= [127.50133514 106.76594543 107.01228333]
+Iaim [134.57863743  97.77704853 101.63153792]
+Ioff [129.54863743 102.87704853 106.88153792]
+mid to goal: [0. 0. 1.]  Inow: 106.74248504638672  Igoal: 106.63153791522365
+ext to goal: [0. 1. 1.]  Inow: 102.8714599609375  Igoal: 102.77704852679881
+inj to goal: [1. 1. 1.]  Inow: 129.55023193359375  Igoal: 129.57863742635226
+!!!!!!!!!  timed out !!!!!!!
+trying to set [129.57863743 102.77704853 106.63153792]
+got stuck at  129.57369995117188 102.80889892578125 101.65541076660156
+in here. i=0, Inow[i]=129.573700, Igoal[i]=129.578637, done[i]=1
+in here. i=1, Inow[i]=102.804993, Igoal[i]=102.777049, done[i]=1
+in here. i=2, Inow[i]=101.639771, Igoal[i]=106.631538, done[i]=1
+stuck with big difference. re-requesting Igoal
+mid to goal: [1. 1. 1.]  Inow: 101.65541076660156  Igoal: 106.63153791522365
+!!!!!!!!!  timed out !!!!!!!
+trying to set [129.57863743 102.77704853 106.63153792]
+got stuck at  129.57369995117188 102.80499267578125 104.20872497558594
+in here. i=0, Inow[i]=129.573700, Igoal[i]=129.578637, done[i]=1
+in here. i=1, Inow[i]=102.804993, Igoal[i]=102.777049, done[i]=1
+in here. i=2, Inow[i]=104.208725, Igoal[i]=106.631538, done[i]=1
+stuck with big difference. re-requesting Igoal
+mid to goal: [1. 1. 1.]  Inow: 104.20872497558594  Igoal: 106.63153791522365
+!!!!!!!!!  timed out !!!!!!!
+trying to set [129.57863743 102.77704853 106.63153792]
+got stuck at  129.54632568359375 102.80499267578125 107.10612487792969
+in here. i=0, Inow[i]=129.546326, Igoal[i]=129.578637, done[i]=1
+in here. i=1, Inow[i]=102.804993, Igoal[i]=102.777049, done[i]=1
+in here. i=2, Inow[i]=107.106125, Igoal[i]=106.631538, done[i]=1
+stuck with big difference. re-requesting Igoal
+mid to goal: [1. 1. 1.]  Inow: 106.87933349609375  Igoal: 106.63153791522365
+average current for 10 s:  148.2533004473365
+=============================================================
+Best result: {'A': 123.31875079760948, 'B': 101.75517077340147, 'C': 101.33300612694283}; f(x) = 170.4953761621007.

@@ -1,0 +1,12 @@
+in change:
+Inow= [119.32526398 105.60855103 104.08360291]
+Iaim= [112.44611542 111.97797974  92.        ]
+Ioff= [117.50611542 106.93797974  97.25      ]
+inj to goal: [1. 0. 0.]  Inow: 117.49532318115234  Igoal: 117.44611541965676
+mid to goal: [1. 0. 1.]  Inow: 97.24870300292969  Igoal: 97.0
+ext to goal: [1. 1. 1.]  Inow: 106.94190216064453  Igoal: 106.97797974176758
+62.21074819564819  seconds to set superconductors
+monitoring...
+60.68416881561279  seconds to set superconductors
+10.216314554214478  seconds to do averaging
+average current for 10 s:  9.427537225000003e-05

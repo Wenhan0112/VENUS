@@ -1,0 +1,9 @@
+in change:
+Inow= [129.75747681 102.25366211 105.06112671]
+Iaim= [129.75303406 102.23576268 105.05997729]
+Ioff= [129.81303406 102.33576268 105.30997729]
+25.738396167755127  seconds to set superconductors
+monitoring...
+60.66366386413574  seconds to set superconductors
+10.233071327209473  seconds to do averaging
+average current for 10 s:  0.0002280990275

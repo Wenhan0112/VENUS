@@ -1,0 +1,51 @@
+in change:
+Inow= [124.51008606 101.95258331 102.56256104]
+Iaim= [124.4646244  114.73296898  97.443455  ]
+Ioff= [124.5246244  109.69296898 102.693455  ]
+mid to goal: [1. 0. 1.]  Inow: 102.32012939453125  Igoal: 102.44345499959374
+ext to goal: [1. 1. 1.]  Inow: 109.69462585449219  Igoal: 109.73296897757338
+!!!!!!!!!  timed out !!!!!!!
+trying to set [124.4646244  109.73296898 102.443455  ]
+got stuck at  124.44752502441406 109.75328063964844 97.44420623779297
+in here. i=0, Inow[i]=124.45, Igoal[i]=124.46, done[i]=1
+in here. i=1, Inow[i]=109.75, Igoal[i]=109.73, done[i]=1
+in here. i=2, Inow[i]=97.44, Igoal[i]=102.44, done[i]=1
+stuck with big difference. re-requesting Igoal
+mid to goal: [1. 1. 1.]  Inow: 97.45594024658203  Igoal: 102.44345499959374
+!!!!!!!!!  timed out !!!!!!!
+trying to set [124.4646244  109.73296898 102.443455  ]
+got stuck at  124.44361877441406 109.75718688964844 102.41788482666016
+in here. i=0, Inow[i]=124.44, Igoal[i]=124.46, done[i]=1
+in here. i=1, Inow[i]=109.76, Igoal[i]=109.73, done[i]=1
+in here. i=2, Inow[i]=102.42, Igoal[i]=102.44, done[i]=1
+!!!!!!!!!  timed out !!!!!!!
+trying to set [124.4646244  109.73296898 102.443455  ]
+got stuck at  124.44752502441406 109.75718688964844 102.46089935302734
+in here. i=0, Inow[i]=124.45, Igoal[i]=124.46, done[i]=1
+in here. i=1, Inow[i]=109.76, Igoal[i]=109.73, done[i]=1
+in here. i=2, Inow[i]=102.46, Igoal[i]=102.44, done[i]=1
+!!!!!!!!!  timed out !!!!!!!
+trying to set [124.4646244  109.73296898 102.443455  ]
+got stuck at  124.44752502441406 109.75718688964844 102.49217987060547
+in here. i=0, Inow[i]=124.45, Igoal[i]=124.46, done[i]=1
+in here. i=1, Inow[i]=109.76, Igoal[i]=109.73, done[i]=1
+in here. i=2, Inow[i]=102.49, Igoal[i]=102.44, done[i]=1
+!!!!!!!!!  timed out !!!!!!!
+trying to set [124.4646244  109.73296898 102.443455  ]
+got stuck at  124.44752502441406 109.75718688964844 102.51172637939453
+in here. i=0, Inow[i]=124.45, Igoal[i]=124.46, done[i]=1
+in here. i=1, Inow[i]=109.76, Igoal[i]=109.73, done[i]=1
+in here. i=2, Inow[i]=102.51, Igoal[i]=102.44, done[i]=1
+!!!!!!!!!  timed out !!!!!!!
+trying to set [124.4646244  109.73296898 102.443455  ]
+got stuck at  124.44361877441406 109.75718688964844 102.53910064697266
+in here. i=0, Inow[i]=124.44, Igoal[i]=124.46, done[i]=1
+in here. i=1, Inow[i]=109.76, Igoal[i]=109.73, done[i]=1
+in here. i=2, Inow[i]=102.54, Igoal[i]=102.44, done[i]=1
+stuck with big difference. re-requesting Igoal
+mid to goal: [1. 1. 1.]  Inow: 102.59384155273438  Igoal: 102.44345499959374
+680.2410204410553  seconds to set superconductors
+monitoring...
+60.71698069572449  seconds to set superconductors
+10.215675354003906  seconds to do averaging
+average current for 10 s:  0.000126985685

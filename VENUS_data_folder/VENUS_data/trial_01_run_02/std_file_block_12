@@ -1,0 +1,42 @@
+in change:
+Inow= [126.88353729  97.01018524 101.89001465]
+Iaim= [131.99960009  97.          90.        ]
+Ioff= [126.96960009  97.1         95.25      ]
+inj to goal: [1. 1. 0.]  Inow: 126.97346496582031  Igoal: 126.99960009267791
+!!!!!!!!!  timed out !!!!!!!
+trying to set [126.99960009  97.          95.        ]
+got stuck at  127.01256561279297 97.01409149169922 101.8900146484375
+in here. i=0, Inow[i]=127.01, Igoal[i]=127.00, done[i]=1
+in here. i=1, Inow[i]=97.01, Igoal[i]=97.00, done[i]=1
+in here. i=2, Inow[i]=101.89, Igoal[i]=95.00, done[i]=0
+stuck with big difference. re-requesting Igoal
+mid to goal: [1. 1. 1.]  Inow: 95.24671936035156  Igoal: 95.0
+!!!!!!!!!  timed out !!!!!!!
+trying to set [126.99960009  97.          95.        ]
+got stuck at  126.95391845703125 97.01018524169922 95.00038146972656
+in here. i=0, Inow[i]=126.95, Igoal[i]=127.00, done[i]=1
+in here. i=1, Inow[i]=97.01, Igoal[i]=97.00, done[i]=1
+in here. i=2, Inow[i]=95.00, Igoal[i]=95.00, done[i]=1
+!!!!!!!!!  timed out !!!!!!!
+trying to set [126.99960009  97.          95.        ]
+got stuck at  126.95000457763672 97.01409149169922 95.00038146972656
+in here. i=0, Inow[i]=126.95, Igoal[i]=127.00, done[i]=1
+in here. i=1, Inow[i]=97.01, Igoal[i]=97.00, done[i]=1
+in here. i=2, Inow[i]=95.00, Igoal[i]=95.00, done[i]=1
+!!!!!!!!!  timed out !!!!!!!
+trying to set [126.99960009  97.          95.        ]
+got stuck at  126.95000457763672 97.01018524169922 94.99647521972656
+in here. i=0, Inow[i]=126.95, Igoal[i]=127.00, done[i]=1
+in here. i=1, Inow[i]=97.01, Igoal[i]=97.00, done[i]=1
+in here. i=2, Inow[i]=95.00, Igoal[i]=95.00, done[i]=1
+!!!!!!!!!  timed out !!!!!!!
+trying to set [126.99960009  97.          95.        ]
+got stuck at  126.94609832763672 97.01409149169922 94.99647521972656
+in here. i=0, Inow[i]=126.95, Igoal[i]=127.00, done[i]=1
+in here. i=1, Inow[i]=97.01, Igoal[i]=97.00, done[i]=1
+in here. i=2, Inow[i]=95.00, Igoal[i]=95.00, done[i]=1
+603.7000846862793  seconds to set superconductors
+monitoring...
+60.79151725769043  seconds to set superconductors
+10.250962257385254  seconds to do averaging
+average current for 10 s:  0.00013985733925000004

@@ -1,0 +1,70 @@
+in change:
+Inow= [130.0038147   97.01409149  95.00038147]
+Iaim [130.         108.06501727 109.26794623]
+Ioff [130.06       103.02501727 104.18794623]
+ext to goal: [1. 1. 0.]  Inow: 103.02786254882812  Igoal: 103.06501726637046
+!!!!!!!!!  timed out !!!!!!!
+trying to set [130.         103.06501727 104.26794623]
+got stuck at  129.99990844726562 103.05133056640625 101.1510009765625
+in here. i=0, Inow[i]=129.999908, Igoal[i]=130.000000, done[i]=1
+in here. i=1, Inow[i]=103.051331, Igoal[i]=103.065017, done[i]=1
+in here. i=2, Inow[i]=101.151001, Igoal[i]=104.267946, done[i]=0
+stuck with big difference. re-requesting Igoal
+mid to goal: [1. 1. 1.]  Inow: 104.19308471679688  Igoal: 104.26794622890692
+!!!!!!!!!  timed out !!!!!!!
+trying to set [130.         103.06501727 104.26794623]
+got stuck at  129.98817443847656 103.04741668701172 104.34166717529297
+in here. i=0, Inow[i]=129.988174, Igoal[i]=130.000000, done[i]=1
+in here. i=1, Inow[i]=103.047417, Igoal[i]=103.065017, done[i]=1
+in here. i=2, Inow[i]=104.341667, Igoal[i]=104.267946, done[i]=1
+!!!!!!!!!  timed out !!!!!!!
+trying to set [130.         103.06501727 104.26794623]
+got stuck at  129.98426818847656 103.04350280761719 104.31820678710938
+in here. i=0, Inow[i]=129.984268, Igoal[i]=130.000000, done[i]=1
+in here. i=1, Inow[i]=103.043503, Igoal[i]=103.065017, done[i]=1
+in here. i=2, Inow[i]=104.318207, Igoal[i]=104.267946, done[i]=1
+!!!!!!!!!  timed out !!!!!!!
+trying to set [130.         103.06501727 104.26794623]
+got stuck at  129.98817443847656 103.04350280761719 104.25955200195312
+in here. i=0, Inow[i]=129.988174, Igoal[i]=130.000000, done[i]=1
+in here. i=1, Inow[i]=103.043503, Igoal[i]=103.065017, done[i]=1
+in here. i=2, Inow[i]=104.259552, Igoal[i]=104.267946, done[i]=1
+!!!!!!!!!  timed out !!!!!!!
+trying to set [130.         103.06501727 104.26794623]
+got stuck at  129.99208068847656 103.04741668701172 104.26346588134766
+in here. i=0, Inow[i]=129.992081, Igoal[i]=130.000000, done[i]=1
+in here. i=1, Inow[i]=103.047417, Igoal[i]=103.065017, done[i]=1
+in here. i=2, Inow[i]=104.263466, Igoal[i]=104.267946, done[i]=1
+!!!!!!!!!  timed out !!!!!!!
+trying to set [130.         103.06501727 104.26794623]
+got stuck at  129.99208068847656 103.04741668701172 104.24391174316406
+in here. i=0, Inow[i]=129.992081, Igoal[i]=130.000000, done[i]=1
+in here. i=1, Inow[i]=103.047417, Igoal[i]=103.065017, done[i]=1
+in here. i=2, Inow[i]=104.243912, Igoal[i]=104.267946, done[i]=1
+!!!!!!!!!  timed out !!!!!!!
+trying to set [130.         103.06501727 104.26794623]
+got stuck at  129.99208068847656 103.04741668701172 104.228271484375
+in here. i=0, Inow[i]=129.992081, Igoal[i]=130.000000, done[i]=1
+in here. i=1, Inow[i]=103.047417, Igoal[i]=103.065017, done[i]=1
+in here. i=2, Inow[i]=104.228271, Igoal[i]=104.267946, done[i]=1
+!!!!!!!!!  timed out !!!!!!!
+trying to set [130.         103.06501727 104.26794623]
+got stuck at  129.99598693847656 103.04741668701172 104.21263122558594
+in here. i=0, Inow[i]=129.995987, Igoal[i]=130.000000, done[i]=1
+in here. i=1, Inow[i]=103.047417, Igoal[i]=103.065017, done[i]=1
+in here. i=2, Inow[i]=104.212631, Igoal[i]=104.267946, done[i]=1
+!!!!!!!!!  timed out !!!!!!!
+trying to set [130.         103.06501727 104.26794623]
+got stuck at  129.99208068847656 103.04741668701172 104.19699096679688
+in here. i=0, Inow[i]=129.992081, Igoal[i]=130.000000, done[i]=1
+in here. i=1, Inow[i]=103.047417, Igoal[i]=103.065017, done[i]=1
+in here. i=2, Inow[i]=104.196991, Igoal[i]=104.267946, done[i]=1
+!!!!!!!!!  timed out !!!!!!!
+trying to set [130.         103.06501727 104.26794623]
+got stuck at  129.99598693847656 103.05133056640625 104.18135070800781
+in here. i=0, Inow[i]=129.995987, Igoal[i]=130.000000, done[i]=1
+in here. i=1, Inow[i]=103.051331, Igoal[i]=103.065017, done[i]=1
+in here. i=2, Inow[i]=104.181351, Igoal[i]=104.267946, done[i]=1
+stuck with big difference. re-requesting Igoal
+mid to goal: [1. 1. 1.]  Inow: 104.18917083740234  Igoal: 104.26794622890692
+average current for 10 s:  128.27130849699336

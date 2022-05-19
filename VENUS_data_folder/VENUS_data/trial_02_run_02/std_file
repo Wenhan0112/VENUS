@@ -1,0 +1,447 @@
+Minimizing objective function. 
+
+in change:
+Inow= [129.08493042  97.01409149  98.35527039]
+Iaim= [121.05126072 106.60485745 106.55985246]
+Ioff= [126.11126072 101.56485745 101.47985246]
+inj to goal: [1. 0. 0.]  Inow: 126.10150909423828  Igoal: 126.05126072067274
+ext to goal: [1. 1. 0.]  Inow: 101.56547546386719  Igoal: 101.60485745339501
+mid to goal: [1. 1. 1.]  Inow: 101.48336791992188  Igoal: 101.55985246415764
+265.4607274532318  seconds to set superconductors
+monitoring...
+60.788575172424316  seconds to set superconductors
+10.21547245979309  seconds to do averaging
+average current for 10 s:  0.000257621725
+
+in change:
+Inow= [126.03894806 101.5850296  101.58894348]
+Iaim= [134.22719805 114.4466853   91.3173706 ]
+Ioff= [129.19719805 109.4066853   96.5673706 ]
+mid to goal: [0. 0. 1.]  Inow: 96.55661010742188  Igoal: 96.31737059659866
+inj to goal: [1. 0. 1.]  Inow: 129.19833374023438  Igoal: 129.22719804740183
+ext to goal: [1. 1. 1.]  Inow: 109.40918731689453  Igoal: 109.44668530389188
+288.02039527893066  seconds to set superconductors
+monitoring...
+60.680413007736206  seconds to set superconductors
+10.233250617980957  seconds to do averaging
+average current for 10 s:  8.31418785e-05
+
+in change:
+Inow= [129.21005249 109.45220184  96.34155273]
+Iaim= [115.32941247  96.85295118  96.25950575]
+Ioff= [120.38941247 101.95295118  96.50950575]
+ext to goal: [0. 1. 1.]  Inow: 101.95258331298828  Igoal: 101.85295117763829
+inj to goal: [1. 1. 1.]  Inow: 120.38490295410156  Igoal: 120.32941246567616
+202.862961769104  seconds to set superconductors
+monitoring...
+60.7711124420166  seconds to set superconductors
+10.248972177505493  seconds to do averaging
+average current for 10 s:  0.00020287933499999996
+
+in change:
+Inow= [120.30670166 101.83136749  96.28289795]
+Iaim= [132.00250827  95.68060207 111.21234253]
+Ioff= [126.97250827 100.78060207 106.13234253]
+ext to goal: [0. 1. 0.]  Inow: 100.77172088623047  Igoal: 100.68060206531895
+inj to goal: [1. 1. 0.]  Inow: 126.97346496582031  Igoal: 127.002508265667
+!!!!!!!!!  timed out !!!!!!!
+trying to set [127.00250827 100.68060207 106.21234253]
+got stuck at  127.01256561279297 100.67005920410156 102.57820129394531
+in here. i=0, Inow[i]=127.01, Igoal[i]=127.00, done[i]=1
+in here. i=1, Inow[i]=100.67, Igoal[i]=100.68, done[i]=1
+in here. i=2, Inow[i]=102.58, Igoal[i]=106.21, done[i]=0
+stuck with big difference. re-requesting Igoal
+!!!!!!!!!  timed out !!!!!!!
+trying to set [127.00250827 100.68060207 106.21234253]
+got stuck at  127.0164794921875 100.67005920410156 104.61537170410156
+in here. i=0, Inow[i]=127.02, Igoal[i]=127.00, done[i]=1
+in here. i=1, Inow[i]=100.67, Igoal[i]=100.68, done[i]=1
+in here. i=2, Inow[i]=104.62, Igoal[i]=106.21, done[i]=0
+stuck with big difference. re-requesting Igoal
+mid to goal: [1. 1. 1.]  Inow: 106.13250732421875  Igoal: 106.21234252955048
+824.591630935669  seconds to set superconductors
+monitoring...
+60.732765674591064  seconds to set superconductors
+10.23384714126587  seconds to do averaging
+average current for 10 s:  0.00020362118999999994
+
+in change:
+Inow= [127.01256561 100.6700592  106.222435  ]
+Iaim= [121.08531724 114.59655007  98.35084584]
+Ioff= [126.14531724 109.55655007 103.60084584]
+mid to goal: [0. 0. 1.]  Inow: 103.57919311523438  Igoal: 103.35084583580331
+inj to goal: [1. 0. 1.]  Inow: 126.12106323242188  Igoal: 126.0853172370365
+ext to goal: [1. 1. 1.]  Inow: 109.56168365478516  Igoal: 109.5965500723101
+!!!!!!!!!  timed out !!!!!!!
+trying to set [126.08531724 109.59655007 103.35084584]
+got stuck at  126.09368896484375 109.56950378417969 103.35631561279297
+in here. i=0, Inow[i]=126.09, Igoal[i]=126.09, done[i]=1
+in here. i=1, Inow[i]=109.57, Igoal[i]=109.60, done[i]=1
+in here. i=2, Inow[i]=103.36, Igoal[i]=103.35, done[i]=1
+!!!!!!!!!  timed out !!!!!!!
+trying to set [126.08531724 109.59655007 103.35084584]
+got stuck at  126.09368896484375 109.56950378417969 103.35240173339844
+in here. i=0, Inow[i]=126.09, Igoal[i]=126.09, done[i]=1
+in here. i=1, Inow[i]=109.57, Igoal[i]=109.60, done[i]=1
+in here. i=2, Inow[i]=103.35, Igoal[i]=103.35, done[i]=1
+!!!!!!!!!  timed out !!!!!!!
+trying to set [126.08531724 109.59655007 103.35084584]
+got stuck at  126.09368896484375 109.57341003417969 103.35240173339844
+in here. i=0, Inow[i]=126.09, Igoal[i]=126.09, done[i]=1
+in here. i=1, Inow[i]=109.57, Igoal[i]=109.60, done[i]=1
+in here. i=2, Inow[i]=103.35, Igoal[i]=103.35, done[i]=1
+!!!!!!!!!  timed out !!!!!!!
+trying to set [126.08531724 109.59655007 103.35084584]
+got stuck at  126.09368896484375 109.57341003417969 103.35631561279297
+in here. i=0, Inow[i]=126.09, Igoal[i]=126.09, done[i]=1
+in here. i=1, Inow[i]=109.57, Igoal[i]=109.60, done[i]=1
+in here. i=2, Inow[i]=103.36, Igoal[i]=103.35, done[i]=1
+301.82786774635315  seconds to set superconductors
+monitoring...
+60.78428936004639  seconds to set superconductors
+10.231554508209229  seconds to do averaging
+average current for 10 s:  0.00013834283499999998
+
+in change:
+Inow= [126.10150909 109.57341003 103.35240173]
+Iaim= [134.06999026  99.771146   108.70495768]
+Ioff= [129.03999026 104.871146   103.62495768]
+ext to goal: [0. 1. 0.]  Inow: 104.86953735351562  Igoal: 104.77114600354733
+mid to goal: [0. 1. 1.]  Inow: 103.63002014160156  Igoal: 103.70495767821421
+inj to goal: [1. 1. 1.]  Inow: 129.0419158935547  Igoal: 129.0699902638887
+88.18520545959473  seconds to set superconductors
+monitoring...
+60.79206728935242  seconds to set superconductors
+10.24010181427002  seconds to do averaging
+average current for 10 s:  0.00013209320999999998
+
+in change:
+Inow= [129.08883667 104.75614166 103.71995544]
+Iaim= [115.77846498  94.52907084  98.21422346]
+Ioff= [120.83846498  99.62907084 103.46422346]
+mid to goal: [0. 0. 1.]  Inow: 103.3406753540039  Igoal: 103.21422346199797
+ext to goal: [0. 1. 1.]  Inow: 99.62605285644531  Igoal: 99.5290708391388
+inj to goal: [1. 1. 1.]  Inow: 120.8345718383789  Igoal: 120.77846498172224
+187.44175815582275  seconds to set superconductors
+monitoring...
+60.656253814697266  seconds to set superconductors
+10.235394954681396  seconds to do averaging
+average current for 10 s:  0.0001330622925
+
+in change:
+Inow= [120.79155731  99.50875092 103.23119354]
+Iaim= [129.36503816 107.89740599 109.05013189]
+Ioff= [124.33503816 102.85740599 103.97013189]
+mid to goal: [0. 0. 1.]  Inow: 103.97020721435547  Igoal: 104.05013188544889
+inj to goal: [1. 0. 1.]  Inow: 124.33804321289062  Igoal: 124.36503815927476
+ext to goal: [1. 1. 1.]  Inow: 102.85972595214844  Igoal: 102.8974059895896
+121.53766870498657  seconds to set superconductors
+monitoring...
+60.681562662124634  seconds to set superconductors
+10.246600151062012  seconds to do averaging
+average current for 10 s:  0.00024350201249999994
+
+in change:
+Inow= [124.39278412 102.92620087 104.02494812]
+Iaim= [116.43984596  96.14273536  92.506103  ]
+Ioff= [121.49984596 101.24273536  97.756103  ]
+ext to goal: [0. 1. 0.]  Inow: 101.24093627929688  Igoal: 101.14273535710083
+mid to goal: [0. 1. 1.]  Inow: 97.75310516357422  Igoal: 97.50610300357049
+inj to goal: [1. 1. 1.]  Inow: 121.4992904663086  Igoal: 121.43984595671806
+69.95479035377502  seconds to set superconductors
+monitoring...
+60.84149765968323  seconds to set superconductors
+10.234473943710327  seconds to do averaging
+average current for 10 s:  0.0002585361325
+
+in change:
+Inow= [121.46800995 101.15882874  97.49894714]
+Iaim= [115.57795738 113.59893392 104.40449136]
+Ioff= [120.63795738 108.55893392  99.32449136]
+inj to goal: [1. 0. 0.]  Inow: 120.63124084472656  Igoal: 120.57795738084135
+mid to goal: [1. 0. 1.]  Inow: 99.32888793945312  Igoal: 99.40449135626214
+ext to goal: [1. 1. 1.]  Inow: 108.5606918334961  Igoal: 108.5989339235108
+240.65625929832458  seconds to set superconductors
+monitoring...
+60.668466091156006  seconds to set superconductors
+10.24429440498352  seconds to do averaging
+average current for 10 s:  0.00018491604499999996
+
+in change:
+Inow= [120.55303955 108.60369873  99.39535522]
+Iaim= [131.14123517  96.54127219 106.81546287]
+Ioff= [126.11123517 101.64127219 101.73546287]
+ext to goal: [0. 1. 0.]  Inow: 101.6397705078125  Igoal: 101.54127219130545
+inj to goal: [1. 1. 0.]  Inow: 126.11323547363281  Igoal: 126.14123517475838
+mid to goal: [1. 1. 1.]  Inow: 101.7375259399414  Igoal: 101.81546286845303
+195.55608701705933  seconds to set superconductors
+monitoring...
+60.74558734893799  seconds to set superconductors
+10.232060432434082  seconds to do averaging
+average current for 10 s:  0.0002521626425
+
+in change:
+Inow= [126.15625    101.52246857 101.83136749]
+Iaim= [118.66613865 106.6568907   90.8996144 ]
+Ioff= [123.72613865 101.6168907   96.1496144 ]
+ext to goal: [0. 1. 0.]  Inow: 101.62022399902344  Igoal: 101.65689070029978
+mid to goal: [0. 1. 1.]  Inow: 96.14213562011719  Igoal: 95.89961440104415
+inj to goal: [1. 1. 1.]  Inow: 123.72415161132812  Igoal: 123.66613864717702
+100.42548513412476  seconds to set superconductors
+monitoring...
+60.65007925033569  seconds to set superconductors
+10.236144065856934  seconds to do averaging
+average current for 10 s:  0.00011159089725000001
+
+in change:
+Inow= [123.65768433 101.65150452  95.91143799]
+Iaim= [130.99077011 101.64715778 106.41029947]
+Ioff= [125.96077011 101.74715778 101.33029947]
+inj to goal: [1. 1. 0.]  Inow: 125.96465301513672  Igoal: 125.99077011140312
+!!!!!!!!!  timed out !!!!!!!
+trying to set [125.99077011 101.64715778 101.41029947]
+got stuck at  125.97638702392578 101.6436767578125 101.11581420898438
+in here. i=0, Inow[i]=125.98, Igoal[i]=125.99, done[i]=1
+in here. i=1, Inow[i]=101.64, Igoal[i]=101.65, done[i]=1
+in here. i=2, Inow[i]=101.12, Igoal[i]=101.41, done[i]=0
+stuck with big difference. re-requesting Igoal
+mid to goal: [1. 1. 1.]  Inow: 101.33087158203125  Igoal: 101.41029947388179
+330.32320523262024  seconds to set superconductors
+monitoring...
+60.70071220397949  seconds to set superconductors
+10.211060523986816  seconds to do averaging
+average current for 10 s:  0.000255264205
+
+in change:
+Inow= [125.97247314 101.64759064 101.40516663]
+Iaim= [116.23923966  96.13998405  92.52972478]
+Ioff= [121.29923966 101.23998405  97.77972478]
+ext to goal: [0. 1. 0.]  Inow: 101.22920989990234  Igoal: 101.13998405303549
+mid to goal: [0. 1. 1.]  Inow: 97.74919891357422  Igoal: 97.52972477543818
+inj to goal: [1. 1. 1.]  Inow: 121.29596710205078  Igoal: 121.23923965666185
+107.89520454406738  seconds to set superconductors
+monitoring...
+60.78311109542847  seconds to set superconductors
+10.000772476196289  seconds to do averaging
+average current for 10 s:  0.00025292844615384616
+
+in change:
+Inow= [121.21385193 101.15882874  97.50286102]
+Iaim= [132.07982762 106.61737423 106.86893579]
+Ioff= [127.04982762 101.57737423 101.78893579]
+ext to goal: [0. 1. 0.]  Inow: 101.58111572265625  Igoal: 101.61737422707512
+mid to goal: [0. 1. 1.]  Inow: 101.79226684570312  Igoal: 101.86893578647451
+inj to goal: [1. 1. 1.]  Inow: 127.05166625976562  Igoal: 127.07982761521352
+151.52069473266602  seconds to set superconductors
+monitoring...
+60.698307037353516  seconds to set superconductors
+10.229116201400757  seconds to do averaging
+average current for 10 s:  0.00025505878000000004
+
+in change:
+Inow= [127.07512665 101.64367676 101.89001465]
+Iaim= [134.30420281  96.18546578  92.95668881]
+Ioff= [129.27420281 101.28546578  98.20668881]
+ext to goal: [0. 1. 0.]  Inow: 101.28395080566406  Igoal: 101.18546578240371
+mid to goal: [0. 1. 1.]  Inow: 98.18321990966797  Igoal: 97.95668880660364
+inj to goal: [1. 1. 1.]  Inow: 129.2804412841797  Igoal: 129.3042028104321
+82.95385241508484  seconds to set superconductors
+monitoring...
+60.71100211143494  seconds to set superconductors
+10.232694625854492  seconds to do averaging
+average current for 10 s:  0.00014618606
+
+in change:
+Inow= [129.33126831 101.15882874  97.92906189]
+Iaim= [116.50823046 101.14357486  92.49842949]
+Ioff= [121.56823046 101.24357486  97.74842949]
+mid to goal: [0. 1. 1.]  Inow: 97.60061645507812  Igoal: 97.49842948975584
+inj to goal: [1. 1. 1.]  Inow: 121.56576538085938  Igoal: 121.50823046385739
+173.47123098373413  seconds to set superconductors
+monitoring...
+60.658913373947144  seconds to set superconductors
+10.222125053405762  seconds to do averaging
+average current for 10 s:  0.000256797505
+
+in change:
+Inow= [121.52666473 101.15882874  97.50286102]
+Iaim= [126.79695715  95.99916951  97.42182727]
+Ioff= [121.76695715 101.09916951  97.67182727]
+ext to goal: [0. 1. 1.]  Inow: 100.99459838867188  Igoal: 100.99916951193318
+inj to goal: [1. 1. 1.]  Inow: 121.77300262451172  Igoal: 121.79695715482207
+27.70033097267151  seconds to set superconductors
+monitoring...
+60.868823289871216  seconds to set superconductors
+10.213148355484009  seconds to do averaging
+average current for 10 s:  0.000256357935
+
+in change:
+Inow= [121.7651825  100.97505188  97.43638611]
+Iaim= [132.03358943 106.5352889  106.64105928]
+Ioff= [127.00358943 101.4952889  101.56105928]
+ext to goal: [0. 1. 0.]  Inow: 101.49900817871094  Igoal: 101.53528890021497
+mid to goal: [0. 1. 1.]  Inow: 101.56156921386719  Igoal: 101.64105928376476
+inj to goal: [1. 1. 1.]  Inow: 127.0399398803711  Igoal: 127.03358943467313
+139.65684819221497  seconds to set superconductors
+monitoring...
+60.750126123428345  seconds to set superconductors
+10.223573446273804  seconds to do averaging
+average current for 10 s:  0.00026015653000000004
+
+in change:
+Inow= [127.01647949 101.52637482 101.64759064]
+Iaim= [118.54547631 106.74533514 109.37408382]
+Ioff= [123.60547631 101.70533514 104.29408382]
+ext to goal: [0. 1. 0.]  Inow: 101.70624542236328  Igoal: 101.74533514103123
+inj to goal: [1. 1. 0.]  Inow: 123.59902954101562  Igoal: 123.5454763076677
+!!!!!!!!!  timed out !!!!!!!
+trying to set [123.54547631 101.74533514 104.37408382]
+got stuck at  123.53646850585938 101.76880645751953 103.03177642822266
+in here. i=0, Inow[i]=123.54, Igoal[i]=123.55, done[i]=1
+in here. i=1, Inow[i]=101.77, Igoal[i]=101.75, done[i]=1
+in here. i=2, Inow[i]=103.03, Igoal[i]=104.37, done[i]=0
+stuck with big difference. re-requesting Igoal
+mid to goal: [1. 1. 1.]  Inow: 104.29474639892578  Igoal: 104.37408381664457
+449.0369129180908  seconds to set superconductors
+monitoring...
+60.780651330947876  seconds to set superconductors
+10.007437229156494  seconds to do averaging
+average current for 10 s:  0.0001880668461538461
+
+in change:
+Inow= [123.53646851 101.76489258 104.38858795]
+Iaim= [116.80053349  96.10997532  92.72969988]
+Ioff= [121.86053349 101.20997532  97.97969988]
+ext to goal: [0. 1. 0.]  Inow: 101.20965576171875  Igoal: 101.10997531549312
+inj to goal: [1. 1. 0.]  Inow: 121.85511779785156  Igoal: 121.80053349489319
+mid to goal: [1. 1. 1.]  Inow: 97.70227813720703  Igoal: 97.72969988295196
+97.4320433139801  seconds to set superconductors
+monitoring...
+60.716583251953125  seconds to set superconductors
+10.232584953308105  seconds to do averaging
+average current for 10 s:  0.00024961222500000004
+
+in change:
+Inow= [121.82774353 101.0962677   97.74137878]
+Iaim= [116.56575522  95.84139962  91.77602341]
+Ioff= [121.62575522 100.94139962  97.02602341]
+ext to goal: [0. 1. 0.]  Inow: 100.9242172241211  Igoal: 100.8413996228754
+inj to goal: [1. 1. 0.]  Inow: 121.58531188964844  Igoal: 121.56575521579849
+mid to goal: [1. 1. 1.]  Inow: 96.75602722167969  Igoal: 96.77602340991598
+28.68157935142517  seconds to set superconductors
+monitoring...
+60.820974588394165  seconds to set superconductors
+10.236656665802002  seconds to do averaging
+average current for 10 s:  0.0002506627325000001
+
+in change:
+Inow= [121.58531189 100.85383606  96.7677536 ]
+Iaim= [131.93595339 106.44854266 106.42386554]
+Ioff= [126.90595339 101.40854266 101.34386554]
+ext to goal: [0. 1. 0.]  Inow: 101.41297912597656  Igoal: 101.44854266129472
+inj to goal: [1. 1. 0.]  Inow: 126.90699768066406  Igoal: 126.93595338684231
+mid to goal: [1. 1. 1.]  Inow: 101.34651184082031  Igoal: 101.42386554418
+160.15252900123596  seconds to set superconductors
+monitoring...
+60.801968812942505  seconds to set superconductors
+10.218454599380493  seconds to do averaging
+average current for 10 s:  0.00024396436249999993
+
+in change:
+Inow= [126.95000458 101.46381378 101.40125275]
+Iaim= [121.82780706 106.71655783 106.64465246]
+Ioff= [126.88780706 101.67655783 101.56465246]
+inj to goal: [1. 0. 0.]  Inow: 126.78578186035156  Igoal: 126.82780706265127
+ext to goal: [1. 1. 0.]  Inow: 101.67887115478516  Igoal: 101.71655782671664
+mid to goal: [1. 1. 1.]  Inow: 101.56547546386719  Igoal: 101.64465246392308
+33.79497480392456  seconds to set superconductors
+monitoring...
+60.84280490875244  seconds to set superconductors
+10.000060319900513  seconds to do averaging
+average current for 10 s:  0.00025176058461538466
+
+in change:
+Inow= [126.82488251 101.71015167 101.65150452]
+Iaim= [116.06662186  95.77123641  92.43497957]
+Ioff= [121.12662186 100.87123641  97.68497957]
+ext to goal: [0. 1. 0.]  Inow: 100.86947631835938  Igoal: 100.77123641074527
+mid to goal: [0. 1. 1.]  Inow: 97.67881774902344  Igoal: 97.4349795654377
+inj to goal: [1. 1. 1.]  Inow: 121.12391662597656  Igoal: 121.06662185872267
+128.0794017314911  seconds to set superconductors
+monitoring...
+60.7308406829834  seconds to set superconductors
+10.221431493759155  seconds to do averaging
+average current for 10 s:  0.00024816665999999993
+
+in change:
+Inow= [121.03398895 100.79127502  97.44029999]
+Iaim= [115.67233297 106.05630249  92.13908581]
+Ioff= [120.73233297 101.01630249  97.38908581]
+mid to goal: [0. 0. 1.]  Inow: 97.17440795898438  Igoal: 97.13908581085626
+inj to goal: [1. 0. 1.]  Inow: 120.72899627685547  Igoal: 120.67233296589313
+ext to goal: [1. 1. 1.]  Inow: 101.01805877685547  Igoal: 101.05630248712092
+27.770143508911133  seconds to set superconductors
+monitoring...
+60.756290912628174  seconds to set superconductors
+10.229186058044434  seconds to do averaging
+average current for 10 s:  0.0002483355625
+
+in change:
+Inow= [120.66643524 101.03761292  97.13139343]
+Iaim= [130.5614299  107.14186191 106.82170318]
+Ioff= [125.5314299  102.10186191 101.74170318]
+ext to goal: [0. 1. 0.]  Inow: 102.10507202148438  Igoal: 102.14186191383888
+inj to goal: [1. 1. 0.]  Inow: 125.53453826904297  Igoal: 125.56142990367142
+mid to goal: [1. 1. 1.]  Inow: 101.74534606933594  Igoal: 101.82170318450771
+179.63794612884521  seconds to set superconductors
+monitoring...
+60.7440881729126  seconds to set superconductors
+10.254817485809326  seconds to do averaging
+average current for 10 s:  0.00024304895750000004
+
+in change:
+Inow= [125.54627228 102.13244629 101.82745361]
+Iaim= [132.78364508  96.64384035 107.76982943]
+Ioff= [127.75364508 101.74384035 102.68982943]
+ext to goal: [0. 1. 0.]  Inow: 101.7375259399414  Igoal: 101.64384035239421
+mid to goal: [0. 1. 1.]  Inow: 102.69159698486328  Igoal: 102.7698294289483
+inj to goal: [1. 1. 1.]  Inow: 127.7554931640625  Igoal: 127.783645082063
+71.81444978713989  seconds to set superconductors
+monitoring...
+60.782416105270386  seconds to set superconductors
+10.217909336090088  seconds to do averaging
+average current for 10 s:  0.00023931725249999998
+
+in change:
+Inow= [127.80241394 101.64759064 102.74242401]
+Iaim= [117.18062064 108.51458459 108.99627428]
+Ioff= [122.24062064 103.47458459 103.91627428]
+ext to goal: [0. 1. 0.]  Inow: 103.47753143310547  Igoal: 103.51458459473645
+inj to goal: [1. 1. 0.]  Inow: 122.2383041381836  Igoal: 122.18062064068121
+!!!!!!!!!  timed out !!!!!!!
+trying to set [122.18062064 103.51458459 103.99627428]
+got stuck at  122.19529724121094 103.53617858886719 103.37586975097656
+in here. i=0, Inow[i]=122.20, Igoal[i]=122.18, done[i]=1
+in here. i=1, Inow[i]=103.54, Igoal[i]=103.51, done[i]=1
+in here. i=2, Inow[i]=103.38, Igoal[i]=104.00, done[i]=0
+stuck with big difference. re-requesting Igoal
+mid to goal: [1. 1. 1.]  Inow: 103.92719268798828  Igoal: 103.99627427936396
+358.7438826560974  seconds to set superconductors
+monitoring...
+60.60596537590027  seconds to set superconductors
+10.238311767578125  seconds to do averaging
+average current for 10 s:  0.0001692505675
+
+in change:
+Inow= [122.19138336 103.53227234 104.02494812]
+Iaim= [132.0898605   95.40137863  97.06279785]
+Ioff= [127.0598605  100.50137863 102.31279785]
+mid to goal: [0. 0. 1.]  Inow: 102.29276275634766  Igoal: 102.06279784854001
+ext to goal: [0. 1. 1.]  Inow: 100.49801635742188  Igoal: 100.40137862636493
+inj to goal: [1. 1. 1.]  Inow: 127.06340026855469  Igoal: 127.08986050308255
+137.84117698669434  seconds to set superconductors
+monitoring...
+60.738606214523315  seconds to set superconductors
+10.23630690574646  seconds to do averaging
+average current for 10 s:  0.00022676125000000002
+Minimum location: [127.03358943467313, 101.53528890021497, 101.64105928376476]

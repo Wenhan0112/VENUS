@@ -1,0 +1,40 @@
+in change:
+Inow= [127.25499725 103.78251648 100.18520355]
+Iaim= [115.          94.84556284 112.        ]
+Ioff= [120.06        99.94556284 106.92      ]
+ext to goal: [0. 1. 0.]  Inow: 99.9349594116211  Igoal: 99.84556283914361
+inj to goal: [1. 1. 0.]  Inow: 120.05645751953125  Igoal: 120.0
+!!!!!!!!!  timed out !!!!!!!
+trying to set [120.          99.84556284 107.        ]
+got stuck at  119.997802734375 99.81765747070312 99.84111022949219
+in here. i=0, Inow[i]=120.00, Igoal[i]=120.00, done[i]=1
+in here. i=1, Inow[i]=99.82, Igoal[i]=99.85, done[i]=1
+in here. i=2, Inow[i]=99.84, Igoal[i]=107.00, done[i]=0
+stuck with big difference. re-requesting Igoal
+!!!!!!!!!  timed out !!!!!!!
+trying to set [120.          99.84556284 107.        ]
+got stuck at  120.00171661376953 99.81765747070312 102.84408569335938
+in here. i=0, Inow[i]=120.00, Igoal[i]=120.00, done[i]=1
+in here. i=1, Inow[i]=99.82, Igoal[i]=99.85, done[i]=1
+in here. i=2, Inow[i]=102.84, Igoal[i]=107.00, done[i]=0
+stuck with big difference. re-requesting Igoal
+!!!!!!!!!  timed out !!!!!!!
+trying to set [120.          99.84556284 107.        ]
+got stuck at  119.997802734375 99.81765747070312 104.72876739501953
+in here. i=0, Inow[i]=120.00, Igoal[i]=120.00, done[i]=1
+in here. i=1, Inow[i]=99.82, Igoal[i]=99.85, done[i]=1
+in here. i=2, Inow[i]=104.73, Igoal[i]=107.00, done[i]=0
+stuck with big difference. re-requesting Igoal
+!!!!!!!!!  timed out !!!!!!!
+trying to set [120.          99.84556284 107.        ]
+got stuck at  120.00171661376953 99.81765747070312 105.91353607177734
+in here. i=0, Inow[i]=120.00, Igoal[i]=120.00, done[i]=1
+in here. i=1, Inow[i]=99.82, Igoal[i]=99.85, done[i]=1
+in here. i=2, Inow[i]=105.91, Igoal[i]=107.00, done[i]=0
+stuck with big difference. re-requesting Igoal
+mid to goal: [1. 1. 1.]  Inow: 106.92626190185547  Igoal: 107.0
+1337.024202823639  seconds to set superconductors
+monitoring...
+60.78889846801758  seconds to set superconductors
+10.22456955909729  seconds to do averaging
+average current for 10 s:  4.4515366999999994e-05

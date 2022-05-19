@@ -1,0 +1,8 @@
+in change:
+Inow= [125.17871857 101.89001465 106.33973694]
+Iaim [135.  92. 112.]
+Ioff [129.97  97.1  106.92]
+ext to goal: [0. 1. 0.]  Inow: 97.09230041503906  Igoal: 97.0
+mid to goal: [0. 1. 1.]  Inow: 106.92234802246094  Igoal: 107.0
+inj to goal: [1. 1. 1.]  Inow: 129.9725341796875  Igoal: 130.0
+average current for 10 s:  142.452125010068

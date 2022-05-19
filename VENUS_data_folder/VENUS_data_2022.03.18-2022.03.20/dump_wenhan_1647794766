@@ -1,0 +1,699 @@
+Minimizing objective function. 
+
+in change:
+Inow= [129.99990845 109.99961853 103.23509979]
+Iaim= [123.81650321 102.63479133  93.64915422]
+Ioff= [128.87650321 107.73479133  98.89915422]
+inj to goal: [1. 0. 0.]  Inow: 128.873779296875  Igoal: 128.81650321198606
+mid to goal: [1. 0. 1.]  Inow: 98.89877319335938  Igoal: 98.64915421697356
+ext to goal: [1. 1. 1.]  Inow: 107.72001647949219  Igoal: 107.63479132588492
+52.684290647506714  seconds to set superconductors
+monitoring...
+60.88577318191528  seconds to set superconductors
+10.232566833496094  seconds to do averaging
+average current for 10 s:  8.460236324999996e-05
+
+in change:
+Inow= [128.84249878 107.62226105  98.66025543]
+Iaim= [134.07289535  95.26331865  91.71616111]
+Ioff= [129.04289535 100.36331865  96.96616111]
+inj to goal: [1. 0. 0.]  Inow: 129.04583740234375  Igoal: 129.07289534962828
+mid to goal: [1. 0. 1.]  Inow: 96.93980407714844  Igoal: 96.71616111376336
+ext to goal: [1. 1. 1.]  Inow: 100.35725402832031  Igoal: 100.26331865183084
+118.88735556602478  seconds to set superconductors
+monitoring...
+60.761054039001465  seconds to set superconductors
+10.217091798782349  seconds to do averaging
+average current for 10 s:  0.00012122504399999999
+
+in change:
+Inow= [129.08493042 100.24385834  96.70910645]
+Iaim= [115.36613211 111.56521091 103.21008378]
+Ioff= [120.42613211 106.52521091  98.13008378]
+ext to goal: [0. 1. 0.]  Inow: 106.52742767333984  Igoal: 106.56521091133499
+inj to goal: [1. 1. 0.]  Inow: 120.42009735107422  Igoal: 120.36613211406188
+mid to goal: [1. 1. 1.]  Inow: 98.13238525390625  Igoal: 98.21008378099165
+215.88435626029968  seconds to set superconductors
+monitoring...
+60.76310467720032  seconds to set superconductors
+10.23293161392212  seconds to do averaging
+average current for 10 s:  6.9631023e-05
+
+in change:
+Inow= [120.36535645 106.58607483  98.23014069]
+Iaim= [134.31486116 100.82853895 107.46760315]
+Ioff= [129.28486116 105.92853895 102.38760315]
+ext to goal: [0. 1. 0.]  Inow: 105.9252700805664  Igoal: 105.82853894910315
+mid to goal: [0. 1. 1.]  Inow: 102.39051818847656  Igoal: 102.46760314924464
+inj to goal: [1. 1. 1.]  Inow: 129.29217529296875  Igoal: 129.31486116433746
+246.292218208313  seconds to set superconductors
+monitoring...
+60.858651876449585  seconds to set superconductors
+10.222389221191406  seconds to do averaging
+average current for 10 s:  0.00010925596499999999
+
+in change:
+Inow= [129.32736206 105.85097504 102.44134521]
+Iaim= [115.80806994 113.92754792 111.89676777]
+Ioff= [120.86806994 108.88754792 106.81676777]
+ext to goal: [0. 1. 0.]  Inow: 108.88914489746094  Igoal: 108.92754791952433
+inj to goal: [1. 1. 0.]  Inow: 120.86585235595703  Igoal: 120.8080699361881
+!!!!!!!!!  timed out !!!!!!!
+trying to set [120.80806994 108.92754792 106.89676777]
+got stuck at  120.79155731201172 108.90478515625 102.6251220703125
+in here. i=0, Inow[i]=120.79, Igoal[i]=120.81, done[i]=1
+in here. i=1, Inow[i]=108.90, Igoal[i]=108.93, done[i]=1
+in here. i=2, Inow[i]=102.63, Igoal[i]=106.90, done[i]=0
+stuck with big difference. re-requesting Igoal
+!!!!!!!!!  timed out !!!!!!!
+trying to set [120.80806994 108.92754792 106.89676777]
+got stuck at  120.79155731201172 108.90087127685547 104.93209838867188
+in here. i=0, Inow[i]=120.79, Igoal[i]=120.81, done[i]=1
+in here. i=1, Inow[i]=108.90, Igoal[i]=108.93, done[i]=1
+in here. i=2, Inow[i]=104.93, Igoal[i]=106.90, done[i]=0
+stuck with big difference. re-requesting Igoal
+mid to goal: [1. 1. 1.]  Inow: 106.8167724609375  Igoal: 106.89676777072751
+884.8153533935547  seconds to set superconductors
+monitoring...
+60.71885895729065  seconds to set superconductors
+10.236239194869995  seconds to do averaging
+average current for 10 s:  9.751531199999998e-05
+
+in change:
+Inow= [120.79155731 108.90478516 106.8910675 ]
+Iaim= [127.51325438  92.35087219  91.58419031]
+Ioff= [122.48325438  97.45087219  96.83419031]
+mid to goal: [0. 0. 1.]  Inow: 96.8107681274414  Igoal: 96.58419031018781
+inj to goal: [1. 0. 1.]  Inow: 122.4846420288086  Igoal: 122.51325438397323
+ext to goal: [1. 1. 1.]  Inow: 97.4481201171875  Igoal: 97.35087219164662
+161.89606523513794  seconds to set superconductors
+monitoring...
+60.86740016937256  seconds to set superconductors
+10.254235029220581  seconds to do averaging
+average current for 10 s:  9.6310088e-05
+
+in change:
+Inow= [122.50028229  97.3816452   96.58789062]
+Iaim= [127.83660822 111.70265885 110.9757189 ]
+Ioff= [122.80660822 106.66265885 105.8957189 ]
+inj to goal: [1. 0. 0.]  Inow: 122.8091812133789  Igoal: 122.83660822047298
+ext to goal: [1. 1. 0.]  Inow: 106.66427612304688  Igoal: 106.70265884829398
+!!!!!!!!!  timed out !!!!!!!
+trying to set [122.83660822 106.70265885 105.9757189 ]
+got stuck at  122.86783599853516 106.70729064941406 103.50489807128906
+in here. i=0, Inow[i]=122.87, Igoal[i]=122.84, done[i]=1
+in here. i=1, Inow[i]=106.71, Igoal[i]=106.70, done[i]=1
+in here. i=2, Inow[i]=103.51, Igoal[i]=105.98, done[i]=0
+stuck with big difference. re-requesting Igoal
+mid to goal: [1. 1. 1.]  Inow: 105.89789581298828  Igoal: 105.97571889723856
+!!!!!!!!!  timed out !!!!!!!
+trying to set [122.83660822 106.70265885 105.9757189 ]
+got stuck at  122.86001586914062 106.69947052001953 105.99565124511719
+in here. i=0, Inow[i]=122.86, Igoal[i]=122.84, done[i]=1
+in here. i=1, Inow[i]=106.70, Igoal[i]=106.70, done[i]=1
+in here. i=2, Inow[i]=106.00, Igoal[i]=105.98, done[i]=1
+!!!!!!!!!  timed out !!!!!!!
+trying to set [122.83660822 106.70265885 105.9757189 ]
+got stuck at  122.86001586914062 106.69947052001953 105.99565124511719
+in here. i=0, Inow[i]=122.86, Igoal[i]=122.84, done[i]=1
+in here. i=1, Inow[i]=106.70, Igoal[i]=106.70, done[i]=1
+in here. i=2, Inow[i]=106.00, Igoal[i]=105.98, done[i]=1
+!!!!!!!!!  timed out !!!!!!!
+trying to set [122.83660822 106.70265885 105.9757189 ]
+got stuck at  122.86392211914062 106.70338439941406 105.99173736572266
+in here. i=0, Inow[i]=122.86, Igoal[i]=122.84, done[i]=1
+in here. i=1, Inow[i]=106.70, Igoal[i]=106.70, done[i]=1
+in here. i=2, Inow[i]=105.99, Igoal[i]=105.98, done[i]=1
+!!!!!!!!!  timed out !!!!!!!
+trying to set [122.83660822 106.70265885 105.9757189 ]
+got stuck at  122.86001586914062 106.70338439941406 105.99173736572266
+in here. i=0, Inow[i]=122.86, Igoal[i]=122.84, done[i]=1
+in here. i=1, Inow[i]=106.70, Igoal[i]=106.70, done[i]=1
+in here. i=2, Inow[i]=105.99, Igoal[i]=105.98, done[i]=1
+!!!!!!!!!  timed out !!!!!!!
+trying to set [122.83660822 106.70265885 105.9757189 ]
+got stuck at  122.86001586914062 106.69947052001953 105.99173736572266
+in here. i=0, Inow[i]=122.86, Igoal[i]=122.84, done[i]=1
+in here. i=1, Inow[i]=106.70, Igoal[i]=106.70, done[i]=1
+in here. i=2, Inow[i]=105.99, Igoal[i]=105.98, done[i]=1
+!!!!!!!!!  timed out !!!!!!!
+trying to set [122.83660822 106.70265885 105.9757189 ]
+got stuck at  122.86392211914062 106.69947052001953 105.98391723632812
+in here. i=0, Inow[i]=122.86, Igoal[i]=122.84, done[i]=1
+in here. i=1, Inow[i]=106.70, Igoal[i]=106.70, done[i]=1
+in here. i=2, Inow[i]=105.98, Igoal[i]=105.98, done[i]=1
+!!!!!!!!!  timed out !!!!!!!
+trying to set [122.83660822 106.70265885 105.9757189 ]
+got stuck at  122.86001586914062 106.69947052001953 105.98783111572266
+in here. i=0, Inow[i]=122.86, Igoal[i]=122.84, done[i]=1
+in here. i=1, Inow[i]=106.70, Igoal[i]=106.70, done[i]=1
+in here. i=2, Inow[i]=105.99, Igoal[i]=105.98, done[i]=1
+!!!!!!!!!  timed out !!!!!!!
+trying to set [122.83660822 106.70265885 105.9757189 ]
+got stuck at  122.85610961914062 106.70338439941406 105.98391723632812
+in here. i=0, Inow[i]=122.86, Igoal[i]=122.84, done[i]=1
+in here. i=1, Inow[i]=106.70, Igoal[i]=106.70, done[i]=1
+in here. i=2, Inow[i]=105.98, Igoal[i]=105.98, done[i]=1
+!!!!!!!!!  timed out !!!!!!!
+trying to set [122.83660822 106.70265885 105.9757189 ]
+got stuck at  122.86392211914062 106.70338439941406 105.98001098632812
+in here. i=0, Inow[i]=122.86, Igoal[i]=122.84, done[i]=1
+in here. i=1, Inow[i]=106.70, Igoal[i]=106.70, done[i]=1
+in here. i=2, Inow[i]=105.98, Igoal[i]=105.98, done[i]=1
+!!!!!!!!!  timed out !!!!!!!
+trying to set [122.83660822 106.70265885 105.9757189 ]
+got stuck at  122.86001586914062 106.70729064941406 105.98001098632812
+in here. i=0, Inow[i]=122.86, Igoal[i]=122.84, done[i]=1
+in here. i=1, Inow[i]=106.71, Igoal[i]=106.70, done[i]=1
+in here. i=2, Inow[i]=105.98, Igoal[i]=105.98, done[i]=1
+!!!!!!!!!  timed out !!!!!!!
+trying to set [122.83660822 106.70265885 105.9757189 ]
+got stuck at  122.86001586914062 106.7112045288086 105.98001098632812
+in here. i=0, Inow[i]=122.86, Igoal[i]=122.84, done[i]=1
+in here. i=1, Inow[i]=106.71, Igoal[i]=106.70, done[i]=1
+in here. i=2, Inow[i]=105.98, Igoal[i]=105.98, done[i]=1
+!!!!!!!!!  timed out !!!!!!!
+trying to set [122.83660822 106.70265885 105.9757189 ]
+got stuck at  122.86392211914062 106.7112045288086 105.9760971069336
+in here. i=0, Inow[i]=122.87, Igoal[i]=122.84, done[i]=1
+in here. i=1, Inow[i]=106.71, Igoal[i]=106.70, done[i]=1
+in here. i=2, Inow[i]=105.98, Igoal[i]=105.98, done[i]=1
+!!!!!!!!!  timed out !!!!!!!
+trying to set [122.83660822 106.70265885 105.9757189 ]
+got stuck at  122.86001586914062 106.70729064941406 105.9760971069336
+in here. i=0, Inow[i]=122.86, Igoal[i]=122.84, done[i]=1
+in here. i=1, Inow[i]=106.71, Igoal[i]=106.70, done[i]=1
+in here. i=2, Inow[i]=105.98, Igoal[i]=105.98, done[i]=1
+!!!!!!!!!  timed out !!!!!!!
+trying to set [122.83660822 106.70265885 105.9757189 ]
+got stuck at  122.86392211914062 106.7151107788086 105.9721908569336
+in here. i=0, Inow[i]=122.86, Igoal[i]=122.84, done[i]=1
+in here. i=1, Inow[i]=106.72, Igoal[i]=106.70, done[i]=1
+in here. i=2, Inow[i]=105.97, Igoal[i]=105.98, done[i]=1
+!!!!!!!!!  timed out !!!!!!!
+trying to set [122.83660822 106.70265885 105.9757189 ]
+got stuck at  122.87174987792969 106.7112045288086 105.9721908569336
+in here. i=0, Inow[i]=122.87, Igoal[i]=122.84, done[i]=1
+in here. i=1, Inow[i]=106.71, Igoal[i]=106.70, done[i]=1
+in here. i=2, Inow[i]=105.97, Igoal[i]=105.98, done[i]=1
+!!!!!!!!!  timed out !!!!!!!
+trying to set [122.83660822 106.70265885 105.9757189 ]
+got stuck at  122.86392211914062 106.7151107788086 105.9721908569336
+in here. i=0, Inow[i]=122.86, Igoal[i]=122.84, done[i]=1
+in here. i=1, Inow[i]=106.72, Igoal[i]=106.70, done[i]=1
+in here. i=2, Inow[i]=105.97, Igoal[i]=105.98, done[i]=1
+!!!!!!!!!  timed out !!!!!!!
+trying to set [122.83660822 106.70265885 105.9757189 ]
+got stuck at  122.86783599853516 106.7112045288086 105.9760971069336
+in here. i=0, Inow[i]=122.87, Igoal[i]=122.84, done[i]=1
+in here. i=1, Inow[i]=106.71, Igoal[i]=106.70, done[i]=1
+in here. i=2, Inow[i]=105.98, Igoal[i]=105.98, done[i]=1
+611.0055201053619  seconds to set superconductors
+monitoring...
+60.73307681083679  seconds to set superconductors
+10.244770526885986  seconds to do averaging
+average current for 10 s:  0.00012639251749999998
+
+in change:
+Inow= [122.867836   106.70729065 105.97609711]
+Iaim= [128.23244052 101.5394258   92.53944974]
+Ioff= [123.20244052 106.6394258   97.78944974]
+ext to goal: [0. 1. 0.]  Inow: 106.51569366455078  Igoal: 106.53942579964634
+inj to goal: [1. 1. 0.]  Inow: 123.20410919189453  Igoal: 123.23244051536238
+mid to goal: [1. 1. 1.]  Inow: 97.76874542236328  Igoal: 97.53944973628454
+270.6850094795227  seconds to set superconductors
+monitoring...
+60.82643532752991  seconds to set superconductors
+10.246366739273071  seconds to do averaging
+average current for 10 s:  0.00013152448250000002
+
+in change:
+Inow= [123.23929596 106.51960754  97.56150818]
+Iaim= [134.27104545 113.31002284 107.95120403]
+Ioff= [129.24104545 108.27002284 102.87120403]
+ext to goal: [0. 1. 0.]  Inow: 108.27525329589844  Igoal: 108.3100228434101
+inj to goal: [1. 1. 0.]  Inow: 129.2413330078125  Igoal: 129.27104544788028
+mid to goal: [1. 1. 1.]  Inow: 102.87928009033203  Igoal: 102.95120402519767
+173.90810251235962  seconds to set superconductors
+monitoring...
+60.80399131774902  seconds to set superconductors
+10.25208044052124  seconds to do averaging
+average current for 10 s:  0.0001480479599999999
+
+in change:
+Inow= [129.26870728 108.2947998  102.92620087]
+Iaim= [123.35392745 101.3907509   92.73436789]
+Ioff= [128.41392745 106.4907509   97.98436789]
+inj to goal: [1. 0. 0.]  Inow: 128.40066528320312  Igoal: 128.35392745021107
+mid to goal: [1. 0. 1.]  Inow: 97.97598266601562  Igoal: 97.73436789280724
+ext to goal: [1. 1. 1.]  Inow: 106.39839172363281  Igoal: 106.39075090156018
+48.62239193916321  seconds to set superconductors
+monitoring...
+60.87429475784302  seconds to set superconductors
+10.23304796218872  seconds to do averaging
+average current for 10 s:  0.00010857955750000001
+
+in change:
+Inow= [128.35765076 106.40229797  97.74528503]
+Iaim= [134.24258627 113.92870978 105.54621967]
+Ioff= [129.21258627 108.88870978 100.46621967]
+inj to goal: [1. 0. 0.]  Inow: 129.21397399902344  Igoal: 129.24258626926243
+ext to goal: [1. 1. 0.]  Inow: 108.88914489746094  Igoal: 108.92870977927318
+mid to goal: [1. 1. 1.]  Inow: 100.46673583984375  Igoal: 100.54621966955703
+122.45792603492737  seconds to set superconductors
+monitoring...
+60.85336518287659  seconds to set superconductors
+10.245521306991577  seconds to do averaging
+average current for 10 s:  8.644293024999999e-05
+
+in change:
+Inow= [129.26480103 108.90478516 100.54493713]
+Iaim= [129.26264979  99.94292968 108.04386863]
+Ioff= [129.32264979 105.04292968 102.96386863]
+ext to goal: [1. 1. 0.]  Inow: 105.02984619140625  Igoal: 104.94292967640206
+!!!!!!!!!  timed out !!!!!!!
+trying to set [129.26264979 104.94292968 103.04386863]
+got stuck at  129.26870727539062 104.9399185180664 102.75415802001953
+in here. i=0, Inow[i]=129.27, Igoal[i]=129.26, done[i]=1
+in here. i=1, Inow[i]=104.94, Igoal[i]=104.94, done[i]=1
+in here. i=2, Inow[i]=102.75, Igoal[i]=103.04, done[i]=0
+stuck with big difference. re-requesting Igoal
+mid to goal: [1. 1. 1.]  Inow: 102.96530151367188  Igoal: 103.04386862803402
+331.32889008522034  seconds to set superconductors
+monitoring...
+60.83160328865051  seconds to set superconductors
+10.232162714004517  seconds to do averaging
+average current for 10 s:  0.00012432573750000003
+
+in change:
+Inow= [129.26870728 104.93991852 103.05133057]
+Iaim= [123.82727073  92.81185006  97.84223693]
+Ioff= [128.88727073  97.91185006 103.09223693]
+mid to goal: [0. 0. 1.]  Inow: 102.7228775024414  Igoal: 102.84223693048764
+inj to goal: [1. 0. 1.]  Inow: 128.87770080566406  Igoal: 128.8272707339081
+ext to goal: [1. 1. 1.]  Inow: 97.90168762207031  Igoal: 97.81185005711797
+119.96111416816711  seconds to set superconductors
+monitoring...
+60.79592180252075  seconds to set superconductors
+10.00040078163147  seconds to do averaging
+average current for 10 s:  0.00013443728205128207
+
+in change:
+Inow= [128.84249878  97.80003357 102.86363983]
+Iaim= [134.26902535 112.01123883 102.94870482]
+Ioff= [129.23902535 106.97123883 102.86870482]
+inj to goal: [1. 0. 1.]  Inow: 129.2413330078125  Igoal: 129.26902534812777
+ext to goal: [1. 1. 1.]  Inow: 106.97318267822266  Igoal: 107.01123882779807
+288.53821754455566  seconds to set superconductors
+monitoring...
+60.737043380737305  seconds to set superconductors
+10.213921785354614  seconds to do averaging
+average current for 10 s:  0.00011933414999999999
+
+in change:
+Inow= [129.26870728 107.00836945 102.92620087]
+Iaim= [123.22585291  99.79252921  92.21601714]
+Ioff= [128.28585291 104.89252921  97.46601714]
+inj to goal: [1. 0. 0.]  Inow: 128.28335571289062  Igoal: 128.22585290898652
+mid to goal: [1. 0. 1.]  Inow: 97.45984649658203  Igoal: 97.2160171352381
+ext to goal: [1. 1. 1.]  Inow: 104.88908386230469  Igoal: 104.79252921367824
+44.86907887458801  seconds to set superconductors
+monitoring...
+60.70892786979675  seconds to set superconductors
+10.246108531951904  seconds to do averaging
+average current for 10 s:  0.0001672169925
+
+in change:
+Inow= [128.23643494 104.81088257  97.1939621 ]
+Iaim= [128.21565561 104.79104482  91.58453354]
+Ioff= [128.27565561 104.89104482  96.83453354]
+mid to goal: [1. 1. 1.]  Inow: 96.82640838623047  Igoal: 96.58453354420169
+27.29962158203125  seconds to set superconductors
+monitoring...
+60.90050387382507  seconds to set superconductors
+10.007478952407837  seconds to do averaging
+average current for 10 s:  0.00014409798897435896
+
+in change:
+Inow= [128.23643494 104.8187027   96.58789062]
+Iaim= [122.99773115 110.21632785 102.07194333]
+Ioff= [128.05773115 105.17632785  96.99194333]
+inj to goal: [1. 0. 0.]  Inow: 128.0526580810547  Igoal: 127.99773114704351
+ext to goal: [1. 1. 0.]  Inow: 105.17843627929688  Igoal: 105.21632785046016
+mid to goal: [1. 1. 1.]  Inow: 96.99454498291016  Igoal: 97.0719433330707
+40.713860273361206  seconds to set superconductors
+monitoring...
+60.763566732406616  seconds to set superconductors
+10.253162145614624  seconds to do averaging
+average current for 10 s:  0.00014815059
+
+in change:
+Inow= [127.9861908  105.24881744  97.07666016]
+Iaim= [133.26980456  99.62185703 102.34555476]
+Ioff= [128.23980456 104.72185703  97.26555476]
+inj to goal: [1. 0. 0.]  Inow: 128.24034118652344  Igoal: 128.26980456364834
+ext to goal: [1. 1. 0.]  Inow: 104.720947265625  Igoal: 104.62185702714704
+mid to goal: [1. 1. 1.]  Inow: 97.26824951171875  Igoal: 97.34555475502674
+36.10767960548401  seconds to set superconductors
+monitoring...
+60.7119357585907  seconds to set superconductors
+10.233032464981079  seconds to do averaging
+average current for 10 s:  0.0001401517825
+
+in change:
+Inow= [128.29118347 104.63883972  97.31517029]
+Iaim= [122.51208872  92.59581506  91.94255895]
+Ioff= [127.57208872  97.69581506  97.19255895]
+mid to goal: [0. 0. 1.]  Inow: 96.9789047241211  Igoal: 96.9425589500755
+inj to goal: [1. 0. 1.]  Inow: 127.57171630859375  Igoal: 127.51208872483022
+ext to goal: [1. 1. 1.]  Inow: 97.6944580078125  Igoal: 97.59581505701198
+117.29261112213135  seconds to set superconductors
+monitoring...
+60.821128368377686  seconds to set superconductors
+10.242692708969116  seconds to do averaging
+average current for 10 s:  0.0001067595585
+
+in change:
+Inow= [127.49351501  97.62016296  96.95153046]
+Iaim= [133.61614426 112.4880706   96.90915131]
+Ioff= [128.58614426 107.4480706   97.15915131]
+inj to goal: [1. 0. 1.]  Inow: 128.59616088867188  Igoal: 128.6161442595255
+ext to goal: [1. 1. 1.]  Inow: 107.4502182006836  Igoal: 107.48807060361032
+!!!!!!!!!  timed out !!!!!!!
+trying to set [128.61614426 107.4880706   96.90915131]
+got stuck at  128.60008239746094 107.50104522705078 96.89288330078125
+in here. i=0, Inow[i]=128.60, Igoal[i]=128.62, done[i]=1
+in here. i=1, Inow[i]=107.50, Igoal[i]=107.49, done[i]=1
+in here. i=2, Inow[i]=96.89, Igoal[i]=96.91, done[i]=1
+!!!!!!!!!  timed out !!!!!!!
+trying to set [128.61614426 107.4880706   96.90915131]
+got stuck at  128.60398864746094 107.50495910644531 96.89288330078125
+in here. i=0, Inow[i]=128.60, Igoal[i]=128.62, done[i]=1
+in here. i=1, Inow[i]=107.50, Igoal[i]=107.49, done[i]=1
+in here. i=2, Inow[i]=96.89, Igoal[i]=96.91, done[i]=1
+!!!!!!!!!  timed out !!!!!!!
+trying to set [128.61614426 107.4880706   96.90915131]
+got stuck at  128.60398864746094 107.50495910644531 96.89288330078125
+in here. i=0, Inow[i]=128.60, Igoal[i]=128.62, done[i]=1
+in here. i=1, Inow[i]=107.50, Igoal[i]=107.49, done[i]=1
+in here. i=2, Inow[i]=96.89, Igoal[i]=96.91, done[i]=1
+!!!!!!!!!  timed out !!!!!!!
+trying to set [128.61614426 107.4880706   96.90915131]
+got stuck at  128.60008239746094 107.50886535644531 96.89288330078125
+in here. i=0, Inow[i]=128.60, Igoal[i]=128.62, done[i]=1
+in here. i=1, Inow[i]=107.51, Igoal[i]=107.49, done[i]=1
+in here. i=2, Inow[i]=96.89, Igoal[i]=96.91, done[i]=1
+!!!!!!!!!  timed out !!!!!!!
+trying to set [128.61614426 107.4880706   96.90915131]
+got stuck at  128.60398864746094 107.50495910644531 96.88896942138672
+in here. i=0, Inow[i]=128.60, Igoal[i]=128.62, done[i]=1
+in here. i=1, Inow[i]=107.50, Igoal[i]=107.49, done[i]=1
+in here. i=2, Inow[i]=96.89, Igoal[i]=96.91, done[i]=1
+!!!!!!!!!  timed out !!!!!!!
+trying to set [128.61614426 107.4880706   96.90915131]
+got stuck at  128.60398864746094 107.51668548583984 96.88896942138672
+in here. i=0, Inow[i]=128.60, Igoal[i]=128.62, done[i]=1
+in here. i=1, Inow[i]=107.52, Igoal[i]=107.49, done[i]=1
+in here. i=2, Inow[i]=96.89, Igoal[i]=96.91, done[i]=1
+!!!!!!!!!  timed out !!!!!!!
+trying to set [128.61614426 107.4880706   96.90915131]
+got stuck at  128.60008239746094 107.51668548583984 96.88896942138672
+in here. i=0, Inow[i]=128.60, Igoal[i]=128.62, done[i]=1
+in here. i=1, Inow[i]=107.52, Igoal[i]=107.49, done[i]=1
+in here. i=2, Inow[i]=96.89, Igoal[i]=96.91, done[i]=1
+!!!!!!!!!  timed out !!!!!!!
+trying to set [128.61614426 107.4880706   96.90915131]
+got stuck at  128.60398864746094 107.51668548583984 96.88505554199219
+in here. i=0, Inow[i]=128.60, Igoal[i]=128.62, done[i]=1
+in here. i=1, Inow[i]=107.52, Igoal[i]=107.49, done[i]=1
+in here. i=2, Inow[i]=96.89, Igoal[i]=96.91, done[i]=1
+!!!!!!!!!  timed out !!!!!!!
+trying to set [128.61614426 107.4880706   96.90915131]
+got stuck at  128.60008239746094 107.51668548583984 96.88114929199219
+in here. i=0, Inow[i]=128.60, Igoal[i]=128.62, done[i]=1
+in here. i=1, Inow[i]=107.52, Igoal[i]=107.49, done[i]=1
+in here. i=2, Inow[i]=96.88, Igoal[i]=96.91, done[i]=1
+!!!!!!!!!  timed out !!!!!!!
+trying to set [128.61614426 107.4880706   96.90915131]
+got stuck at  128.60008239746094 107.52059936523438 96.88505554199219
+in here. i=0, Inow[i]=128.60, Igoal[i]=128.62, done[i]=1
+in here. i=1, Inow[i]=107.52, Igoal[i]=107.49, done[i]=1
+in here. i=2, Inow[i]=96.89, Igoal[i]=96.91, done[i]=1
+!!!!!!!!!  timed out !!!!!!!
+trying to set [128.61614426 107.4880706   96.90915131]
+got stuck at  128.59616088867188 107.51668548583984 96.88896942138672
+in here. i=0, Inow[i]=128.60, Igoal[i]=128.62, done[i]=1
+in here. i=1, Inow[i]=107.52, Igoal[i]=107.49, done[i]=1
+in here. i=2, Inow[i]=96.89, Igoal[i]=96.91, done[i]=1
+!!!!!!!!!  timed out !!!!!!!
+trying to set [128.61614426 107.4880706   96.90915131]
+got stuck at  128.60008239746094 107.51668548583984 96.89288330078125
+in here. i=0, Inow[i]=128.60, Igoal[i]=128.62, done[i]=1
+in here. i=1, Inow[i]=107.52, Igoal[i]=107.49, done[i]=1
+in here. i=2, Inow[i]=96.89, Igoal[i]=96.91, done[i]=1
+!!!!!!!!!  timed out !!!!!!!
+trying to set [128.61614426 107.4880706   96.90915131]
+got stuck at  128.60008239746094 107.51668548583984 96.89288330078125
+in here. i=0, Inow[i]=128.60, Igoal[i]=128.62, done[i]=1
+in here. i=1, Inow[i]=107.52, Igoal[i]=107.49, done[i]=1
+in here. i=2, Inow[i]=96.89, Igoal[i]=96.91, done[i]=1
+!!!!!!!!!  timed out !!!!!!!
+trying to set [128.61614426 107.4880706   96.90915131]
+got stuck at  128.59616088867188 107.52059936523438 96.88896942138672
+in here. i=0, Inow[i]=128.60, Igoal[i]=128.62, done[i]=1
+in here. i=1, Inow[i]=107.52, Igoal[i]=107.49, done[i]=1
+in here. i=2, Inow[i]=96.89, Igoal[i]=96.91, done[i]=1
+!!!!!!!!!  timed out !!!!!!!
+trying to set [128.61614426 107.4880706   96.90915131]
+got stuck at  128.59616088867188 107.52059936523438 96.88896942138672
+in here. i=0, Inow[i]=128.60, Igoal[i]=128.62, done[i]=1
+in here. i=1, Inow[i]=107.52, Igoal[i]=107.49, done[i]=1
+in here. i=2, Inow[i]=96.89, Igoal[i]=96.91, done[i]=1
+!!!!!!!!!  timed out !!!!!!!
+trying to set [128.61614426 107.4880706   96.90915131]
+got stuck at  128.59616088867188 107.52059936523438 96.88896942138672
+in here. i=0, Inow[i]=128.60, Igoal[i]=128.62, done[i]=1
+in here. i=1, Inow[i]=107.52, Igoal[i]=107.49, done[i]=1
+in here. i=2, Inow[i]=96.89, Igoal[i]=96.91, done[i]=1
+!!!!!!!!!  timed out !!!!!!!
+trying to set [128.61614426 107.4880706   96.90915131]
+got stuck at  128.59225463867188 107.52059936523438 96.88896942138672
+in here. i=0, Inow[i]=128.59, Igoal[i]=128.62, done[i]=1
+in here. i=1, Inow[i]=107.52, Igoal[i]=107.49, done[i]=1
+in here. i=2, Inow[i]=96.89, Igoal[i]=96.91, done[i]=1
+!!!!!!!!!  timed out !!!!!!!
+trying to set [128.61614426 107.4880706   96.90915131]
+got stuck at  128.59616088867188 107.51668548583984 96.89288330078125
+in here. i=0, Inow[i]=128.60, Igoal[i]=128.62, done[i]=1
+in here. i=1, Inow[i]=107.52, Igoal[i]=107.49, done[i]=1
+in here. i=2, Inow[i]=96.89, Igoal[i]=96.91, done[i]=1
+!!!!!!!!!  timed out !!!!!!!
+trying to set [128.61614426 107.4880706   96.90915131]
+got stuck at  128.59225463867188 107.51668548583984 96.88505554199219
+in here. i=0, Inow[i]=128.59, Igoal[i]=128.62, done[i]=1
+in here. i=1, Inow[i]=107.52, Igoal[i]=107.49, done[i]=1
+in here. i=2, Inow[i]=96.89, Igoal[i]=96.91, done[i]=1
+!!!!!!!!!  timed out !!!!!!!
+trying to set [128.61614426 107.4880706   96.90915131]
+got stuck at  128.59225463867188 107.51668548583984 96.89678955078125
+in here. i=0, Inow[i]=128.60, Igoal[i]=128.62, done[i]=1
+in here. i=1, Inow[i]=107.52, Igoal[i]=107.49, done[i]=1
+in here. i=2, Inow[i]=96.89, Igoal[i]=96.91, done[i]=1
+!!!!!!!!!  timed out !!!!!!!
+trying to set [128.61614426 107.4880706   96.90915131]
+got stuck at  128.60398864746094 107.51668548583984 96.88505554199219
+in here. i=0, Inow[i]=128.60, Igoal[i]=128.62, done[i]=1
+in here. i=1, Inow[i]=107.52, Igoal[i]=107.49, done[i]=1
+in here. i=2, Inow[i]=96.89, Igoal[i]=96.91, done[i]=1
+312.24724531173706  seconds to set superconductors
+monitoring...
+60.766582012176514  seconds to set superconductors
+10.24878191947937  seconds to do averaging
+average current for 10 s:  5.119270575e-05
+
+in change:
+Inow= [128.59616089 107.50104523  96.8928833 ]
+Iaim= [123.1331114   98.99191372 102.4893358 ]
+Ioff= [128.1931114  104.09191372  97.4093358 ]
+inj to goal: [1. 0. 0.]  Inow: 128.18170166015625  Igoal: 128.13311139558778
+ext to goal: [1. 1. 0.]  Inow: 104.09141540527344  Igoal: 103.9919137189789
+mid to goal: [1. 1. 1.]  Inow: 97.41292572021484  Igoal: 97.48933579514261
+122.45835256576538  seconds to set superconductors
+monitoring...
+60.71143579483032  seconds to set superconductors
+10.241142511367798  seconds to do averaging
+average current for 10 s:  0.00011449721499999995
+
+in change:
+Inow= [128.11131287 103.96238708  97.50286102]
+Iaim= [128.10207527 109.96476616 110.39378853]
+Ioff= [128.16207527 104.92476616 105.31378853]
+ext to goal: [1. 1. 0.]  Inow: 104.92818450927734  Igoal: 104.96476615530774
+!!!!!!!!!  timed out !!!!!!!
+trying to set [128.10207527 104.96476616 105.39378853]
+got stuck at  128.10740661621094 104.9399185180664 101.85482788085938
+in here. i=0, Inow[i]=128.11, Igoal[i]=128.10, done[i]=1
+in here. i=1, Inow[i]=104.94, Igoal[i]=104.96, done[i]=1
+in here. i=2, Inow[i]=101.85, Igoal[i]=105.39, done[i]=0
+stuck with big difference. re-requesting Igoal
+!!!!!!!!!  timed out !!!!!!!
+trying to set [128.10207527 104.96476616 105.39378853]
+got stuck at  128.11912536621094 104.9438247680664 104.70922088623047
+in here. i=0, Inow[i]=128.12, Igoal[i]=128.10, done[i]=1
+in here. i=1, Inow[i]=104.94, Igoal[i]=104.96, done[i]=1
+in here. i=2, Inow[i]=104.71, Igoal[i]=105.39, done[i]=0
+stuck with big difference. re-requesting Igoal
+mid to goal: [1. 1. 1.]  Inow: 105.31529235839844  Igoal: 105.39378852710014
+696.283079624176  seconds to set superconductors
+monitoring...
+60.79133605957031  seconds to set superconductors
+10.250728845596313  seconds to do averaging
+average current for 10 s:  0.0001273565475
+
+in change:
+Inow= [128.10740662 104.93991852 105.37002563]
+Iaim= [115.91338402 110.0434265   93.09466282]
+Ioff= [120.97338402 105.0034265   98.34466282]
+ext to goal: [0. 1. 0.]  Inow: 105.00638580322266  Igoal: 105.04342649509623
+mid to goal: [0. 1. 1.]  Inow: 98.316162109375  Igoal: 98.09466282256288
+inj to goal: [1. 1. 1.]  Inow: 120.96751403808594  Igoal: 120.91338402334499
+240.40403079986572  seconds to set superconductors
+monitoring...
+60.838847398757935  seconds to set superconductors
+10.224279165267944  seconds to do averaging
+average current for 10 s:  6.2342163e-05
+
+in change:
+Inow= [120.91668701 105.06112671  98.10501862]
+Iaim= [133.32171361 104.98325893  91.6598443 ]
+Ioff= [128.29171361 105.08325893  96.9098443 ]
+mid to goal: [0. 1. 1.]  Inow: 96.87724304199219  Igoal: 96.6598442995548
+inj to goal: [1. 1. 1.]  Inow: 128.2950897216797  Igoal: 128.32171361407853
+218.61483645439148  seconds to set superconductors
+monitoring...
+60.819175243377686  seconds to set superconductors
+10.000137567520142  seconds to do averaging
+average current for 10 s:  0.00013162832564102568
+
+in change:
+Inow= [128.29118347 104.99856567  96.64654541]
+Iaim= [122.53819785  99.74530963  90.88688011]
+Ioff= [127.59819785 104.84530963  96.13688011]
+ext to goal: [0. 1. 0.]  Inow: 104.83434295654297  Igoal: 104.74530962581156
+mid to goal: [0. 1. 1.]  Inow: 96.00527954101562  Igoal: 95.88688011362831
+inj to goal: [1. 1. 1.]  Inow: 127.59517669677734  Igoal: 127.53819785188954
+36.75924324989319  seconds to set superconductors
+monitoring...
+60.79842209815979  seconds to set superconductors
+10.246079206466675  seconds to do averaging
+average current for 10 s:  0.00013613403575000007
+
+in change:
+Inow= [127.5599823  104.75614166  95.91534424]
+Iaim= [127.52711194 110.07419121 103.09613851]
+Ioff= [127.58711194 105.03419121  98.01613851]
+ext to goal: [1. 1. 0.]  Inow: 105.03766632080078  Igoal: 105.07419120821312
+mid to goal: [1. 1. 1.]  Inow: 98.01899719238281  Igoal: 98.09613851008476
+133.7823622226715  seconds to set superconductors
+monitoring...
+60.891250133514404  seconds to set superconductors
+10.235529661178589  seconds to do averaging
+average current for 10 s:  0.0001226792075
+
+in change:
+Inow= [127.50133514 105.06112671  98.1089325 ]
+Iaim= [133.8880134   99.73053727  90.78435531]
+Ioff= [128.8580134  104.83053727  96.03435531]
+ext to goal: [0. 1. 0.]  Inow: 104.82652282714844  Igoal: 104.73053726677819
+mid to goal: [0. 1. 1.]  Inow: 96.02091979980469  Igoal: 95.78435531431397
+inj to goal: [1. 1. 1.]  Inow: 128.85813903808594  Igoal: 128.88801339648555
+63.54566264152527  seconds to set superconductors
+monitoring...
+60.8074164390564  seconds to set superconductors
+10.219731569290161  seconds to do averaging
+average current for 10 s:  0.00010084888525
+
+in change:
+Inow= [128.90115356 104.75222778  95.79413605]
+Iaim= [134.26958571 113.61484494 109.15347822]
+Ioff= [129.23958571 108.57484494 104.07347822]
+inj to goal: [1. 0. 0.]  Inow: 129.2413330078125  Igoal: 129.26958570895184
+ext to goal: [1. 1. 0.]  Inow: 108.57633209228516  Igoal: 108.61484494113903
+!!!!!!!!!  timed out !!!!!!!
+trying to set [129.26958571 108.61484494 104.15347822]
+got stuck at  129.26870727539062 108.59588623046875 101.52246856689453
+in here. i=0, Inow[i]=129.27, Igoal[i]=129.27, done[i]=1
+in here. i=1, Inow[i]=108.60, Igoal[i]=108.61, done[i]=1
+in here. i=2, Inow[i]=101.52, Igoal[i]=104.15, done[i]=0
+stuck with big difference. re-requesting Igoal
+mid to goal: [1. 1. 1.]  Inow: 104.0796890258789  Igoal: 104.15347822166142
+544.5107357501984  seconds to set superconductors
+monitoring...
+60.77796125411987  seconds to set superconductors
+10.217475891113281  seconds to do averaging
+average current for 10 s:  0.0001248763125
+
+in change:
+Inow= [129.26089478 108.59979248 104.14616394]
+Iaim= [123.0013184   99.81121001  92.66072449]
+Ioff= [128.0613184  104.91121001  97.91072449]
+inj to goal: [1. 0. 0.]  Inow: 128.06048583984375  Igoal: 128.00131840236082
+mid to goal: [1. 0. 1.]  Inow: 97.90560150146484  Igoal: 97.66072449283101
+ext to goal: [1. 1. 1.]  Inow: 104.90081787109375  Igoal: 104.8112100118677
+66.71264457702637  seconds to set superconductors
+monitoring...
+60.787376403808594  seconds to set superconductors
+10.243402004241943  seconds to do averaging
+average current for 10 s:  0.00012611479999999998
+
+in change:
+Inow= [127.98227692 104.8187027   97.67881775]
+Iaim= [134.39423094 113.05383628 111.99643076]
+Ioff= [129.36423094 108.01383628 106.91643076]
+inj to goal: [1. 0. 0.]  Inow: 129.37037658691406  Igoal: 129.39423093806292
+ext to goal: [1. 1. 0.]  Inow: 108.0210952758789  Igoal: 108.05383628015967
+!!!!!!!!!  timed out !!!!!!!
+trying to set [129.39423094 108.05383628 106.99643076]
+got stuck at  129.38992309570312 108.0445556640625 102.8753662109375
+in here. i=0, Inow[i]=129.39, Igoal[i]=129.39, done[i]=1
+in here. i=1, Inow[i]=108.04, Igoal[i]=108.05, done[i]=1
+in here. i=2, Inow[i]=102.88, Igoal[i]=107.00, done[i]=0
+stuck with big difference. re-requesting Igoal
+!!!!!!!!!  timed out !!!!!!!
+trying to set [129.39423094 108.05383628 106.99643076]
+got stuck at  129.38992309570312 108.0484619140625 105.02593994140625
+in here. i=0, Inow[i]=129.39, Igoal[i]=129.39, done[i]=1
+in here. i=1, Inow[i]=108.05, Igoal[i]=108.05, done[i]=1
+in here. i=2, Inow[i]=105.03, Igoal[i]=107.00, done[i]=0
+stuck with big difference. re-requesting Igoal
+mid to goal: [1. 1. 1.]  Inow: 106.91844177246094  Igoal: 106.99643075867935
+!!!!!!!!!  timed out !!!!!!!
+trying to set [129.39423094 108.05383628 106.99643076]
+got stuck at  129.39382934570312 108.0445556640625 107.01618957519531
+in here. i=0, Inow[i]=129.39, Igoal[i]=129.39, done[i]=1
+in here. i=1, Inow[i]=108.04, Igoal[i]=108.05, done[i]=1
+in here. i=2, Inow[i]=107.02, Igoal[i]=107.00, done[i]=1
+!!!!!!!!!  timed out !!!!!!!
+trying to set [129.39423094 108.05383628 106.99643076]
+got stuck at  129.3977508544922 108.0484619140625 107.01228332519531
+in here. i=0, Inow[i]=129.40, Igoal[i]=129.39, done[i]=1
+in here. i=1, Inow[i]=108.05, Igoal[i]=108.05, done[i]=1
+in here. i=2, Inow[i]=107.01, Igoal[i]=107.00, done[i]=1
+!!!!!!!!!  timed out !!!!!!!
+trying to set [129.39423094 108.05383628 106.99643076]
+got stuck at  129.38992309570312 108.05237579345703 107.01228332519531
+in here. i=0, Inow[i]=129.39, Igoal[i]=129.39, done[i]=1
+in here. i=1, Inow[i]=108.05, Igoal[i]=108.05, done[i]=1
+in here. i=2, Inow[i]=107.01, Igoal[i]=107.00, done[i]=1
+!!!!!!!!!  timed out !!!!!!!
+trying to set [129.39423094 108.05383628 106.99643076]
+got stuck at  129.38992309570312 108.05237579345703 107.01618957519531
+in here. i=0, Inow[i]=129.39, Igoal[i]=129.39, done[i]=1
+in here. i=1, Inow[i]=108.05, Igoal[i]=108.05, done[i]=1
+in here. i=2, Inow[i]=107.02, Igoal[i]=107.00, done[i]=1
+903.9408891201019  seconds to set superconductors
+monitoring...
+60.730863094329834  seconds to set superconductors
+10.242772340774536  seconds to do averaging
+average current for 10 s:  6.100247175000001e-05
+Minimum location: [128.22585290898652, 104.79252921367824, 97.2160171352381]

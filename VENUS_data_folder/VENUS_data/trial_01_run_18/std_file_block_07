@@ -1,0 +1,19 @@
+in change:
+Inow= [127.19634247  98.35527039 103.04741669]
+Iaim= [132.51763161 110.51864145  93.06100007]
+Ioff= [127.48763161 105.47864145  98.31100007]
+inj to goal: [1. 0. 0.]  Inow: 127.4896011352539  Igoal: 127.51763161224746
+ext to goal: [1. 1. 0.]  Inow: 105.4795150756836  Igoal: 105.51864145338017
+!!!!!!!!!  timed out !!!!!!!
+trying to set [127.51763161 105.51864145  98.06100007]
+got stuck at  127.50133514404297 105.54598999023438 103.04741668701172
+in here. i=0, Inow[i]=127.50, Igoal[i]=127.52, done[i]=1
+in here. i=1, Inow[i]=105.55, Igoal[i]=105.52, done[i]=1
+in here. i=2, Inow[i]=103.05, Igoal[i]=98.06, done[i]=0
+stuck with big difference. re-requesting Igoal
+mid to goal: [1. 1. 1.]  Inow: 98.308349609375  Igoal: 98.06100007187177
+503.89169692993164  seconds to set superconductors
+monitoring...
+60.82410645484924  seconds to set superconductors
+10.243886470794678  seconds to do averaging
+average current for 10 s:  0.00013520343249999998
