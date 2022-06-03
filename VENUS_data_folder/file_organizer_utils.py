@@ -126,7 +126,40 @@ def merge_data_apr():
     data = pd.concat([data, new_data])
     data.to_csv("old_file_data.csv", index=False)
 
+def merge_data_may():
+    time_step = lambda f: int(f[-10:])
+    original_dir = "VENUS_data_2022.05.30"
+    data = pd.read_csv("old_file_data.csv")
+    data_fname = os.listdir(original_dir)
+    std_files = [d for d in data_fname if "dump" in d]
+    monitor_files = [d for d in data_fname if "monitor" in d]
+    std_files = sorted(std_files, key=time_step)
+    monitor_files = sorted(monitor_files, key=time_step)
+    assert len(std_files) == len(monitor_files)
+    std_creator = [get_creator(d) for d in std_files]
+    monitor_creator = [get_creator(d) for d in monitor_files]
+    assert std_creator == monitor_creator
+    std_files = [os.path.join(original_dir, d) for d in std_files]
+    monitor_files = [os.path.join(original_dir, d) for d in monitor_files]
+    new_data = []
+
+    for i in range(len(monitor_files)):
+        data_d = {
+            "trial index": 3,
+            "file index": i,
+            "monitor file": monitor_files[i],
+            "std file": std_files[i],
+            "creator": std_creator[i],
+            "monitor time step": int(monitor_files[i][-10:]),
+            "std time step": int(std_files[i][-10:])
+        }
+        new_data.append(data_d)
+    new_data = pd.DataFrame(new_data)
+    data = pd.concat([data, new_data])
+    # data = new_data
+    data.to_csv("old_file_data.csv", index=False)
+
 
 if __name__ == "__main__":
-    # merge_data_apr()
-    pass
+    merge_data_may()
+    # pass

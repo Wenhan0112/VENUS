@@ -68,3 +68,9 @@ trial index,file index,monitor file,std file,creator,monitor time step,std time 
 2,23,VENUS_data/trial_02_run_23/monitor_file,VENUS_data/trial_02_run_23/std_file,harvey,1651458984,1651458984.0
 2,24,VENUS_data/trial_02_run_24/monitor_file,VENUS_data/trial_02_run_24/std_file,wenhan,1651467658,1651467658.0
 2,25,VENUS_data/trial_02_run_25/monitor_file,VENUS_data/trial_02_run_25/std_file,harvey,1651474215,1651474214.0
+3,0,VENUS_data/trial_03_run_00/monitor_file,VENUS_data/trial_03_run_00/std_file,harvey,1653931683,1653931683.0
+3,1,VENUS_data/trial_03_run_01/monitor_file,VENUS_data/trial_03_run_01/std_file,harvey,1653941787,1653941786.0
+3,2,VENUS_data/trial_03_run_02/monitor_file,VENUS_data/trial_03_run_02/std_file,harvey,1653949467,1653949467.0
+3,3,VENUS_data/trial_03_run_03/monitor_file,VENUS_data/trial_03_run_03/std_file,harvey,1653962124,1653962124.0
+3,4,VENUS_data/trial_03_run_04/monitor_file,VENUS_data/trial_03_run_04/std_file,harvey,1653973409,1653973408.0
+3,5,VENUS_data/trial_03_run_05/monitor_file,VENUS_data/trial_03_run_05/std_file,harvey,1654009155,1654009155.0
