@@ -32,24 +32,44 @@ class Naive_Net(nn.Module):
             x = self.layers[i](x)
         return x
 
+class Bhattacharyya_Loss(nn.Module):
+    def forward(self, x, y):
+        x, sx = x[:, 0], x[:, 1]
+        y, sy = y[:, 0], y[:, 1]
+        sx2, sy2 = sx**2, sy**2
+        return ((x - y)**2 / (sx2 + sy2)).sum() + \
+            2 * torch.log((sx2 + sy2) / (2 * sx.abs() * sy.abs())).sum()
+
 class Physical_Loss(nn.Module):
     def __init__(self, regularization):
         super(Physical_Loss, self).__init__()
         self.regularization = regularization
 
     def forward(self, x, y):
-        return ((x[:, 0] - y[:, 0])**2 / (y[:, 1]**2 + x[:, 1]**2)).sum() + \
-            self.regularization * (x[:, 1]**2).sum()
+        x, sx = x[:, 0], x[:, 1]
+        y, sy = y[:, 0], y[:, 1]
+        sx2, sy2 = sx**2, sy**2
+        return ((x - y)**2 / (sx2 + sy2)).sum() + \
+            self.regularization * sx2.sum()
 
 class Naive_Net_Model():
-    def __init__(self, dataloader, layer_sizes, physical=0, device=device):
+    def __init__(self, dataloader, layer_sizes,
+            loss="MSE", regularization=0., device=device):
         self.dataloader = dataloader
-        self.physical = physical
-        if physical:
+        self.regularization = regularization
+        if loss in ["Bhattacharyya", "Physical"]:
             layer_sizes[-1] += 1
         self.model = Naive_Net(layer_sizes)
         self.validation = False
         self.device = device
+        if loss == "MSE":
+            self.loss_fn = nn.MSELoss()
+        elif loss == "Physical":
+            self.loss_fn = Physical_Loss(self.regularization)
+        elif loss == "Bhattacharyya":
+            self.loss_fn = Bhattacharyya_Loss()
+        else:
+            raise ValueError(f"Loss {loss} not implemented!")
 
     def set_validation(self, val_dataloader):
         self.validation = True
@@ -59,10 +79,7 @@ class Naive_Net_Model():
         self.model.train()
         if self.validation:
             self.val_losses = []
-        if self.physical:
-            loss_fn = Physical_Loss(self.physical)
-        else:
-            loss_fn = nn.MSELoss()
+            self.val_mse_losses = []
         optimizer = torch.optim.Adam(self.model.parameters(), lr=lr)
         for epoch in range(num_epochs):
             if if_print:
@@ -70,7 +87,7 @@ class Naive_Net_Model():
             for i, batch in enumerate(self.dataloader):
                 optimizer.zero_grad()
                 pred = self.model(batch["input"])
-                loss = loss_fn(pred, batch["output"])
+                loss = self.loss_fn(pred, batch["output"])
                 loss.backward()
                 optimizer.step()
             if if_print:
@@ -80,9 +97,12 @@ class Naive_Net_Model():
                 self.model.eval()
                 for batch in self.val_dataloader:
                     val_pred = self.model(batch["input"])
-                    val_loss = loss_fn(val_pred, batch["output"])
+                    val_loss = self.loss_fn(val_pred, batch["output"])
                     val_loss = val_loss.detach().cpu().item()
+                    mse_loss = nn.MSELoss()(val_pred[:, 0], batch["output"][:, 0])
+                    mse_loss = mse_loss.detach().cpu().item()
                     self.val_losses.append(val_loss)
+                    self.val_mse_losses.append(mse_loss)
                     if if_print:
                         print("Validation loss:", val_loss)
                     break

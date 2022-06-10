@@ -3,6 +3,7 @@ from torch import nn
 import torch.optim
 import tqdm
 import numpy as np
+import os
 import matplotlib.pyplot as plt
 import pandas as pd
 import physical_model
@@ -153,11 +154,11 @@ def train_nn_and_gp(datatype="random"):
     def train_nn(train_data, val_data):
         dataloader = torch.utils.data.DataLoader(train_data, batch_size=12)
         val_dataloader = torch.utils.data.DataLoader(val_data, batch_size=len(val_data))
-        model = naive_model.Naive_Net_Model(dataloader,
+        model = physical_model.Naive_Net_Model(dataloader,
             [len(input_cols), 32, 64, 128, 64, 16, 1], device=device)
         model.set_validation(val_dataloader)
-        model.train(100, 3e-3)
-        return model.val_losses
+        model.train(100, 1e-2)
+        return model.val_losses, model
 
     def train_gpr(train_data, val_data):
         nu = 0.66
@@ -169,20 +170,22 @@ def train_nn_and_gp(datatype="random"):
         val_input, val_output = train_data["input"], train_data["output"]
         model = gaussian_process_regressor.Gaussian_Process_Regressor(nu)
         model.train(input, output)
-        return model.loss(val_input, val_output)
+        return model.loss(val_input, val_output), model
 
     input_cols = ["inj_avg", "ext_avg", "mid_avg", "bias_avg", "ext_p_avg", "inj_p_avg"]
     # input_cols = ["inj_avg", "ext_avg", "mid_avg"]
     output_cols = ["beam_avg"]
     if datatype == "random":
-        train_data, val_data = VENUS_dataset.read_and_split_data(0.8)
+        trial = [3]
+        datatype += f" trial {trial}"
+        train_data, val_data = VENUS_dataset.read_and_split_data(0.8, trial)
     else:
         train_data, val_data = \
             VENUS_dataset.read_and_split_data_by_trial(None, datatype)
     dataset = VENUS_dataset.VENUS_Dataset(train_data, input_cols, output_cols)
     val_dataset = VENUS_dataset.VENUS_Dataset(val_data, input_cols, output_cols)
-    nn_losses = train_nn(dataset, val_dataset)
-    gpr_loss = train_gpr(dataset, val_dataset)
+    nn_losses, nn_model = train_nn(dataset, val_dataset)
+    gpr_loss, gpr_model = train_gpr(dataset, val_dataset)
     print("Minumum neural net loss:", np.array(nn_losses).min())
     print("GPR loss:", gpr_loss)
     plt.plot(nn_losses, marker="s", color="b", linestyle="None",
@@ -198,19 +201,88 @@ def train_nn_and_gp(datatype="random"):
 
 def train_physical_nn(datatype="random"):
 
-    def train_nn(train_data, val_data, regularization):
+    def train_nn(train_data, val_data, loss, regularization):
         dataloader = torch.utils.data.DataLoader(train_data, batch_size=12)
         val_dataloader = torch.utils.data.DataLoader(val_data, batch_size=len(val_data))
-        model = naive_model.Naive_Net_Model(dataloader,
+        model = physical_model.Naive_Net_Model(dataloader,
             [len(input_cols), 32, 64, 128, 64, 16, 1],
-            physical=regularization, device=device)
+            loss=loss, regularization=regularization, device=device)
         model.set_validation(val_dataloader)
-        model.train(100, 5e-3)
-        return model.val_losses, model
+        model.train(200, 2e-2)
+        return model.val_losses, model.val_mse_losses, model
 
     def visualize_physical(train_data, val_data, model):
         val_dataloader = torch.utils.data.DataLoader(val_data, batch_size=10)
         data = next(iter(val_dataloader))
+        input, output = data["input"], data["output"]
+        pred = model.predict(input).detach().numpy()
+        x = np.arange(len(pred))
+        plt.errorbar(x, pred[:, 0], yerr=pred[:, 1], label="Prediction",
+            linestyle="None", capsize=5, marker="s", markersize=5)
+        plt.errorbar(x, output[:, 0], yerr=output[:, 1], label="Validation",
+            linestyle="None", capsize=5, marker="s", markersize=5)
+        for i in x[:-1]:
+            plt.axvline(i + 0.5)
+        plt.xlabel("Index")
+        plt.ylabel("Beam current ($\\mathrm{\\mu A}$)")
+        plt.tick_params(direction="in")
+        plt.title("Validation Visualization")
+        plt.legend()
+        plt.show()
+
+    input_cols = ["inj_avg", "ext_avg", "mid_avg", "bias_avg", "ext_p_avg", "inj_p_avg"]
+    # input_cols = ["inj_avg", "ext_avg", "mid_avg"]
+    output_cols = ["beam_avg", "beam_std"]
+    if datatype == "random":
+        trial = [0]
+        datatype += f" trial {trial}"
+        train_data, val_data = VENUS_dataset.read_and_split_data(0.8, trial)
+    else:
+        train_data, val_data = \
+            VENUS_dataset.read_and_split_data_by_trial(None, datatype)
+    dataset = VENUS_dataset.VENUS_Dataset(train_data, input_cols, output_cols)
+    val_dataset = VENUS_dataset.VENUS_Dataset(val_data, input_cols, output_cols)
+    nn_losses, mse_losses, model = train_nn(dataset, val_dataset,
+        loss="Physical", regularization=1.)
+    # physical_loss = train_nn(dataset, val_dataset)
+    print("Minumum neural net loss:", np.array(nn_losses).min())
+    dataset = VENUS_dataset.VENUS_Dataset(train_data, input_cols, output_cols)
+    val_dataset = VENUS_dataset.VENUS_Dataset(val_data, input_cols, output_cols)
+    visualize_physical(dataset, val_dataset, model)
+    plt.plot(nn_losses, marker="s", color="b", linestyle="None",
+        label="Neural Net")
+    plt.yscale("log")
+    plt.title(f"Validation Losses Physical Net\n(Val trial {datatype}, "
+        f"{len(input_cols)} vars)")
+    plt.xlabel("Epoch")
+    plt.ylabel("Validation Loss")
+    plt.legend()
+    plt.show()
+    plt.plot(mse_losses, marker="s", color="b", linestyle="None",
+        label="Neural Net")
+    plt.yscale("log")
+    plt.title(f"Validation MSE Losses Physical Net\n(Val trial {datatype}, "
+        f"{len(input_cols)} vars)")
+    plt.xlabel("Epoch")
+    plt.ylabel("Validation Loss")
+    plt.legend()
+    plt.show()
+    return locals()
+
+def train_bhattacharyya_nn(datatype="random"):
+
+    def train_nn(train_data, val_data, loss, regularization):
+        dataloader = torch.utils.data.DataLoader(train_data, batch_size=12)
+        val_dataloader = torch.utils.data.DataLoader(val_data, batch_size=len(val_data))
+        model = physical_model.Naive_Net_Model(dataloader,
+            [len(input_cols), 32, 64, 128, 64, 16, 1],
+            loss=loss, regularization=regularization, device=device)
+        model.set_validation(val_dataloader)
+        model.train(100, 2e-2)
+        return model.val_losses, model
+
+    def visualize_physical(data, model):
+
         input, output = data["input"], data["output"]
         pred = model.predict(input).detach().numpy()
         x = np.arange(len(pred))
@@ -237,12 +309,15 @@ def train_physical_nn(datatype="random"):
             VENUS_dataset.read_and_split_data_by_trial(None, datatype)
     dataset = VENUS_dataset.VENUS_Dataset(train_data, input_cols, output_cols)
     val_dataset = VENUS_dataset.VENUS_Dataset(val_data, input_cols, output_cols)
-    nn_losses, model = train_nn(dataset, val_dataset, regularization = 1)
+    # nn_losses_1, model_1 = train_nn(dataset, val_dataset,
+    #     loss="Physical", regularization=1.)
     # physical_loss = train_nn(dataset, val_dataset)
+    nn_losses, model = train_nn(dataset, val_dataset,
+        loss="Bhattacharyya", regularization=None)
+    val_dataloader = torch.utils.data.DataLoader(val_dataset, batch_size=10)
+    val_data = next(iter(val_dataloader))
     print("Minumum neural net loss:", np.array(nn_losses).min())
-    dataset = VENUS_dataset.VENUS_Dataset(train_data, input_cols, output_cols)
-    val_dataset = VENUS_dataset.VENUS_Dataset(val_data, input_cols, output_cols)
-    visualize_physical(dataset, val_dataset, model)
+    visualize_physical(val_data, model)
     plt.plot(nn_losses, marker="s", color="b", linestyle="None",
         label="Neural Net")
     plt.yscale("log")
@@ -254,9 +329,9 @@ def train_physical_nn(datatype="random"):
     plt.show()
     return locals()
 
-
-
 if __name__ == "__main__":
     # data = train_val_by_trial()
     # find_kernel_length_scale()
-    train_physical_nn("random")
+    # data = train_nn_and_gp()
+    data = train_physical_nn("random")
+    # data = train_bhattacharyya_nn("random")

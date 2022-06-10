@@ -3,6 +3,7 @@ from torch import nn
 import torch.optim
 import tqdm
 import numpy as np
+import os
 import matplotlib.pyplot as plt
 import pandas as pd
 
@@ -37,8 +38,10 @@ class VENUS_Dataset(torch.utils.data.Dataset):
                 device=self.device, dtype=torch.float32)
         }
 
-def read_and_split_data(val_proportion):
+def read_and_split_data(val_proportion, trial=None):
     data = pd.read_csv(CURRENT_DATA_FILE)
+    if trial is not None:
+        data = data[data["trial index"].isin(trial)]
     data = data.sample(frac=1)
     split_idx = int(val_proportion * len(data))
     return data[split_idx:], data[:split_idx]
